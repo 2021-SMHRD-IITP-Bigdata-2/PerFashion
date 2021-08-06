@@ -22,7 +22,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index.html"><img src="images_3/logo3.png" width="125px"></a>
+                    <a href="index_3.html"><img src="images_3/logo3.png" width="125px"></a>
                 </div>
                 <nav>
                     <ul>
@@ -55,7 +55,7 @@
             <div class="small-container">
                 <div class="best">
                     <div class = "best_item one">찜 BEST</div>
-                    <div href="#" class = "best_item two"><전체보기></div>
+                    <div href="#"><a href="jjimBest_3.jsp" class = "best_item two"><전체보기></a></div>
                 </div>
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
@@ -109,7 +109,7 @@
         <div class="small-container">
             <div class="best">
                 <div class = "best_item one">좋아요 BEST</div>
-                <div href="#" class = "best_item two"><전체보기></div>
+                <div href="#"><a href="likeBest_3.jsp" class = "best_item two"><전체보기></a></div>
             </div>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -223,7 +223,5 @@
             return direction;
         }
     </script>
-</body>
-</html>
 </body>
 </html>

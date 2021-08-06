@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PerFashion</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style_3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
@@ -20,7 +22,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index.html"><img src="images/logo3.png" width="125px"></a>
+                    <a href="index.html"><img src="images_3/logo3.png" width="125px"></a>
                 </div>
                 <nav>
                     <ul>
@@ -30,7 +32,7 @@
                         <li><a href="">MY PAGE</a></li>
                     </ul>
                 </nav>
-                <!-- img src="images/ÏïÑÏù¥ÏΩòÏ∂îÍ∞ÄÍ∞ÄÎä•" width="30px" height="30px" -->
+                <!-- img src="images/æ∆¿Ãƒ‹√ﬂ∞°∞°¥…" width="30px" height="30px" -->
             </div> 
         </div>
     </div>
@@ -38,57 +40,57 @@
         <div class="container">
             <div class="row">
                 <div class="col-2">
-                    <h1 style="color: white">Ïó¨Îü¨Î∂ÑÏùò Ï∑®Ìñ•Ïóê ÎßûÎäî<br>ÏΩîÎîîÏôÄ Ìñ•ÏàòÎ•º <br>Ï∂îÏ≤úÎ∞õÏïÑ Î≥¥ÏÑ∏Ïöî!</h1>
-                    <p>Ìó§Ïñ¥Ïä§ÌÉÄÏùºÎ∂ÄÌÑ∞ Î∂ÑÏúÑÍ∏∞,ÏÉÅÌô© Îì± ÏÑ†ÌÉùÌïòÏã† ÏòµÏÖòÏóê Îî∞Îùº Ï∂îÏ≤úÌï¥ÎìúÎ¶ΩÎãàÎã§.</p>
-                    <a href="" class="btn">Ï∂îÏ≤ú Î∞õÍ∏∞ &#8594;</a>
+                    <h1 style="color: white">ø©∑Ø∫–¿« √Î«‚ø° ∏¬¥¬<br>ƒ⁄µøÕ «‚ºˆ∏¶ <br>√ﬂ√µπﬁæ∆ ∫∏ººø‰!</h1>
+                    <p>«ÏæÓΩ∫≈∏¿œ∫Œ≈Õ ∫–¿ß±‚,ªÛ»≤ µÓ º±≈√«œΩ≈ ø…º«ø° µ˚∂Û √ﬂ√µ«ÿµÂ∏≥¥œ¥Ÿ.</p>
+                    <a href="" class="btn">√ﬂ√µ πﬁ±‚ &#8594;</a>
                 </div>
                 <div class="col-2">
-                    <img src="images/banner4.png">
+                    <img src="images_3/banner4.png">
                 </div>
             </div>
         </div>
     </div>
-    <!------ Ï∞ú BEST categories ---------->
+    <!------ ¬Ú BEST categories ---------->
         <div class="categories">
             <div class="small-container">
                 <div class="best">
-                    <div class = "best_item one">Ï∞ú BEST</div>
-                    <div href="#" class = "best_item two"><Ï†ÑÏ≤¥Î≥¥Í∏∞></div>
+                    <div class = "best_item one">¬Ú BEST</div>
+                    <div href="#" class = "best_item two"><¿¸√º∫∏±‚></div>
                 </div>
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img class = "image" src="images/pic01.jpg">
+                            <img class = "image" src="images_3/pic01.jpg">
                             <div href="#" class = "likeBtn">
                             <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img class = "image" src="images/pic02.jpg">
+                            <img class = "image" src="images_3/pic02.jpg">
                             <div href="#" class = "likeBtn">
                             <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img class = "image" src="images/pic03.jpg">
+                            <img class = "image" src="images_3/pic03.jpg">
                             <div href="#" class = "likeBtn">
                             <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img class = "image" src="images/pic04.jpg">
+                            <img class = "image" src="images_3/pic04.jpg">
                             <div href="#" class = "likeBtn">
                             <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img class = "image" src="images/pic05.jpg">
+                            <img class = "image" src="images_3/pic05.jpg">
                             <div href="#" class = "likeBtn">
                             <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img class = "image" src="images/pic06.jpg">
+                            <img class = "image" src="images_3/pic06.jpg">
                             <div href="#" class = "likeBtn">
                             <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
                             </div>
@@ -102,47 +104,47 @@
         </div>   
         
 
-    <!------ Ï¢ãÏïÑÏöî BEST categories ---------->
+    <!------ ¡¡æ∆ø‰ BEST categories ---------->
     <div class="categories">
         <div class="small-container">
             <div class="best">
-                <div class = "best_item one">Ï¢ãÏïÑÏöî BEST</div>
-                <div href="#" class = "best_item two"><Ï†ÑÏ≤¥Î≥¥Í∏∞></div>
+                <div class = "best_item one">¡¡æ∆ø‰ BEST</div>
+                <div href="#" class = "best_item two"><¿¸√º∫∏±‚></div>
             </div>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img class = "image" src="images/pic01.jpg">
+                        <img class = "image" src="images_3/pic01.jpg">
                         <div href="#" class = "likeBtn">
                         <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img class = "image" src="images/pic02.jpg">
+                        <img class = "image" src="images_3/pic02.jpg">
                         <div href="#" class = "likeBtn">
                         <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img class = "image" src="images/pic03.jpg">
+                        <img class = "image" src="images_3/pic03.jpg">
                         <div href="#" class = "likeBtn">
                         <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img class = "image" src="images/pic04.jpg">
+                        <img class = "image" src="images_3/pic04.jpg">
                         <div href="#" class = "likeBtn">
                         <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img class = "image" src="images/pic05.jpg">
+                        <img class = "image" src="images_3/pic05.jpg">
                         <div href="#" class = "likeBtn">
                         <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img class = "image" src="images/pic06.jpg">
+                        <img class = "image" src="images_3/pic06.jpg">
                         <div href="#" class = "likeBtn">
                         <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
                         </div>
@@ -167,30 +169,30 @@
                             <li><span class="label"><i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</span></li>
                             <li><span class="label"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</span></li>
                         </ul>
-                        <p>Í¥ëÏ£ºÍ¥ëÏó≠Ïãú ÎÇ®Íµ¨ ÏÜ°ÌïòÎèô<br />
-                        ÏÜ°ÏïîÎ°ú 60 Í¥ëÏ£º CGIÏÑºÌÑ∞ 2Ï∏µ <br />
+                        <p>±§¡÷±§ø™Ω√ ≥≤±∏ º€«œµø<br />
+                        º€æœ∑Œ 60 ±§¡÷ CGIºæ≈Õ 2√˛ <br />
                         (062)655-3509</p>
                     </div>
                 
                 <div class="footer-col-2">
-                    <img src ="images/logo3.png">
+                    <img src ="images_3/logo3.png">
                     <p></p>
                 </div>
                 <div class="footer-col-3">
                     <h3>MY PAGE</h3>
                     <ul>
-                        <li>ÌîÑÎ°úÌïÑ ÏàòÏ†ï</li>
-                        <li>Ï∞ú Î™©Î°ù</li>
-                        <li>Ï∂îÏ≤úÎ∞õÏùÄ Î™©Î°ù</li>
-                        <li>Í≤åÏãúÍ∏Ä Í¥ÄÎ¶¨</li>
+                        <li>«¡∑Œ«  ºˆ¡§</li>
+                        <li>¬Ú ∏Ò∑œ</li>
+                        <li>√ﬂ√µπﬁ¿∫ ∏Ò∑œ</li>
+                        <li>∞‘Ω√±€ ∞¸∏Æ</li>
                     </ul>
                 </div>
                 <div class="footer-col-4">
-                    <h3>Î©îÏù∏ ÌéòÏù¥ÏßÄ</h3>
+                    <h3>∏ﬁ¿Œ ∆‰¿Ã¡ˆ</h3>
                     <ul>
-                        <li>ÏΩîÎîî Ï∂îÏ≤ú Î∞õÍ∏∞</li>
-                        <li>Ï∞ú BEST</li>
-                        <li>Ï¢ãÏïÑÏöî BEST</li>
+                        <li>ƒ⁄µ √ﬂ√µ πﬁ±‚</li>
+                        <li>¬Ú BEST</li>
+                        <li>¡¡æ∆ø‰ BEST</li>
                         <li>COMMUNITY</li>
                     </ul>
                 </div>
@@ -221,5 +223,7 @@
             return direction;
         }
     </script>
+</body>
+</html>
 </body>
 </html>

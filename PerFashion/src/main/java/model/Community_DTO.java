@@ -1,6 +1,6 @@
 package model;
 
-public class Community__DTO {
+public class Community_DTO {
 
 	private String user_id;
 	private String like;
@@ -10,11 +10,11 @@ public class Community__DTO {
 	
 	private String title;
 	private String contents;
-	private String post_image;
+	private String postimage;
 	
 	private String post;
 	private String comment;
-	private String user_image;
+	private String userimage;
 	
 	
 }

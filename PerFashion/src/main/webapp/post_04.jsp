@@ -35,13 +35,13 @@
     <main>
         <div class="main-container">
             <div class="temp-box">
-                <image src="images_04_03/medium/코디6.png" class="images">
+                <image src="images_04_03/medium/cody6.PNG" class="images">
             </div>
             <div class="temp-box box-two">     
                 <div class="border-dee3eb">
                     <div class="image_id">
                     <div class="profile-user-img">
-                        <image src="images_04_03/medium/코디2.jpg" class="profile-user-img-img">
+                        <image src="images_04_03/medium/cody2.jpg" class="profile-user-img-img">
                     </div>
                     <div class="user_id">young_suk</div>
                     </div>
@@ -50,7 +50,7 @@
                 <div class="border-dee3eb"> 
                     <div class="image_id">
                     <div class="profile-user-img">
-                        <image src="images_04_03/medium/코디2.jpg" class="profile-user-img-img">
+                        <image src="images_04_03/medium/cody2.jpg" class="profile-user-img-img">
                      </div>
                      <div  class="user_id">young_suk
                         <div class="content_detail">오늘은 재밌는하루였다</div>
@@ -61,7 +61,7 @@
                 <div class="border-dee3eb">
                     <div class="image_id">
                     <div class="profile-user-img">
-                        <image src="images_04_03/medium/코디1.jpg" class="profile-user-img-img">
+                        <image src="images_04_03/medium/cody1.jpg" class="profile-user-img-img">
                     </div>
                     <div class="user_id">woojin
                         <div class="comment">뭐가재밌는데 ㅎㅎㅎ</div>

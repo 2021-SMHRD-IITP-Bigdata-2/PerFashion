@@ -19,7 +19,8 @@
 	<script src="js/modernizr.custom.70736.js"></script>	
     <link rel="stylesheet" type="text/css" href="css_04_01/component.css" />
     <link rel="stylesheet" type="text/css" href="css_04_01/demo_m.css" />
-   
+  
+   	
 </head>
 <body>
     <body>
@@ -61,49 +62,49 @@
 
 			<div class="grid">
 				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
-					<img src=images_04_01/medium/코디5.png class="image">
+					<img src=images_04_01/medium/cody1.jpg class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>
 				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
-					<img src=images_04_01/medium/코디3.png class="image">
+					<img src=images_04_01/medium/cody2.jpg class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>
 				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
-					<img src=images_04_01/medium/코디4.png class="image">
+					<img src=images_04_01/medium/cody3.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>
 				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
-					<img src=images_04_01/medium/코디6.png class="image">
+					<img src=images_04_01/medium/cody4.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>
 				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
-					<img src=images_04_01/medium/코디7.png class="image">
+					<img src=images_04_01/medium/cody5.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>
 				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
-					<img src=images_04_01/medium/코디8.png class="image">
+					<img src=images_04_01/medium/cody6.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>
 				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
-					<img src=images_04_01/medium/코디9.png class="image">
+					<img src=images_04_01/medium/cody7.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>
 				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
-					<img src=images_04_01/medium/코디1.jpg class="image">
+					<img src=images_04_01/medium/cody8.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
@@ -161,7 +162,8 @@
 	</div>
 </div>
 
-<script src="js/classie.js"></script>
+	<script type="js/jquery-3.6.0.min.js"></script>
+		<script src="js/classie.js"></script>
 		<script src="js/clipboard.min.js"></script>
 		<script>
 		(function() {

@@ -54,7 +54,7 @@
             <div class="contents_uploader">
                 <div class="image_id">
                     <div class="profile-user-img">
-                        <image src="images_04_02/medium/ÄÚµğ2.jpg" class="profile-user-img-img">
+                        <image src="images_04_02/medium/cody2.jpg" class="profile-user-img-img">
                     </div>
                     <div class="user_id">young_suk</div>                  
                 </div>

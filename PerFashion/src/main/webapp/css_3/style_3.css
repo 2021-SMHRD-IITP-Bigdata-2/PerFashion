@@ -40,8 +40,8 @@ p{
 }
 
 .container{
+	margin :auto;
     max-width: 1300px;
-    margin: auto;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -89,7 +89,8 @@ p{
 }
 
 .banner{
-    background: black
+	margin-top : 160px;
+    background: black;
 }
 
 .col-2 img{

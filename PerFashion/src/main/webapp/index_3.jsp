@@ -19,7 +19,7 @@
 </head>
 <body>
     
-    <div class="header">
+    <div class="header_slide">
         <div class="container">
             <div class="navbar">
                 <div class="logo">

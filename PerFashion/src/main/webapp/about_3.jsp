@@ -22,7 +22,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index_3.html"><img src="images_3/logo3.png" width="125px"></a>
+                    <a href="index_3.jsp"><img src="images_3/logo3.png" width="125px"></a>
                 </div>
                 <h1 class = "jjim">ABOUT</h1>
                 <nav>

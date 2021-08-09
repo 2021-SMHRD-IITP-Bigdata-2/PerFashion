@@ -27,7 +27,7 @@
                 <nav>
                     <ul>
                         <li><a href="">LOGIN</a></li>
-                        <li><a href="">ABOUT</a></li>
+                        <li><a href="about_3.html">ABOUT</a></li>
                         <li><a href="">COMMUNITY</a></li>
                         <li><a href="">MY PAGE</a></li>
                     </ul>

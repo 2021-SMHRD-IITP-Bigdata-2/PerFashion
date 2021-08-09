@@ -1,11 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ì „ì²´ë³´ê¸°</title>
-    <link rel="stylesheet" href="css_3/style_3.css">
+    <title>about</title>
+   	<link rel="stylesheet" href="css_3/style_3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
@@ -19,7 +22,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index_3.html"><img src="images_3/logo3.png" width="125px"></a>
+                    <a href="index_3.jsp"><img src="images_3/logo3.png" width="125px"></a>
                 </div>
                 <h1 class = "jjim">ABOUT</h1>
                 <nav>
@@ -30,36 +33,38 @@
                         <li><a href="">MY PAGE</a></li>
                     </ul>
                 </nav>
-                <!-- img src="images/ì•„ì´ì½˜ì¶”ê°€ê°€ëŠ¥" width="30px" height="30px" -->
+                <!-- img src="images/¾ÆÀÌÄÜÃß°¡°¡´É" width="30px" height="30px" -->
             </div> 
         </div>
     </div>
-    <!------ ì°œ BEST categories ---------->
-        <div class="categories">
+    <!------ Âò BEST categories ---------->
+        
+            <div class="categories">
             <div class="small-container_about">
                     <div class="about_line">
                         <div class="about">
                             <img class = "image" src="images_3/about01.jpg">
                         </div>
                         <div class="about_title">
-                                <h2>ì‚¶ì˜ 3ê°€ì§€ ê¸°ë³¸ ìš”ì†Œ ì¤‘ì˜ í•˜ë‚˜ì¸ ì˜(è¡£).</h2>
+                                <h2>»îÀÇ 3°¡Áö ±âº» ¿ä¼Ò ÁßÀÇ ÇÏ³ªÀÎ ÀÇ(ëý).</h2>
                         </div>
-                        <div class="about_text">íŒ¨ì…˜(fashion)ì˜ ì‚¬ì „ì  ì •ì˜ëŠ” â€˜íŠ¹ì •í•œ ì‹œê¸°ì— ìœ í–‰í•˜ëŠ” ì˜ë³µì´ë‚˜ ë‘ë°œ ë“±ì˜ ì¼ì •í•œ ì–‘ì‹â€™ì´ë‹¤. ì‚´ë©´ì„œ ë–¼ë ¤ì•¼ ë—„ ìˆ˜ ì—†ëŠ” ì˜·ê³¼ ì‹¬ì‹  ì•ˆì •ì„ ìœ„í•´ì„œ í˜¹ì€ ìž¥ì†Œì— ë”°ë¼ ì‚¬ìš©í•˜ëŠ” í–¥ìˆ˜ëŠ” ì™¸ì ìœ¼ë¡œëŠ” â€˜ë‚˜â€™ì˜ ì´ë¯¸ì§€ë¥¼ íƒ€ì¸ì—ê²Œ ê°ì¸í•˜ê³ , ë‚´ì ìœ¼ë¡œëŠ” ë‚´ìž¬ì  ê°€ì¹˜ë¥¼ í‚¤ìš¸ ìˆ˜ ìžˆëŠ” ë„êµ¬ë¡œ ì‚¬ìš©ëœë‹¤.
+                        <div class="about_text">ÆÐ¼Ç(fashion)ÀÇ »çÀüÀû Á¤ÀÇ´Â ¡®Æ¯Á¤ÇÑ ½Ã±â¿¡ À¯ÇàÇÏ´Â ÀÇº¹ÀÌ³ª µÎ¹ß µîÀÇ ÀÏÁ¤ÇÑ ¾ç½Ä¡¯ÀÌ´Ù. »ì¸é¼­ ¶¼·Á¾ß ¶¿ ¼ö ¾ø´Â ¿Ê°ú ½É½Å ¾ÈÁ¤À» À§ÇØ¼­ È¤Àº Àå¼Ò¿¡ µû¶ó »ç¿ëÇÏ´Â Çâ¼ö´Â ¿ÜÀûÀ¸·Î´Â ¡®³ª¡¯ÀÇ ÀÌ¹ÌÁö¸¦ Å¸ÀÎ¿¡°Ô °¢ÀÎÇÏ°í, ³»ÀûÀ¸·Î´Â ³»ÀçÀû °¡Ä¡¸¦ Å°¿ï ¼ö ÀÖ´Â µµ±¸·Î »ç¿ëµÈ´Ù.
                                 <br><br><br><br></div>
                         <div class="about">
                             <img class = "image" src="images_3/about02.jpg">
                         </div>
                         <div class="about_title">
-                                <h2>ê°œì„±ê³¼ ì·¨í–¥ì„ í‘œì¶œí•˜ëŠ” ì²« ë‹¨ì¶” = íŒ¨ì…˜ê³¼ í–¥ìˆ˜</h2>
+                                <h2>°³¼º°ú ÃëÇâÀ» Ç¥ÃâÇÏ´Â Ã¹ ´ÜÃß = ÆÐ¼Ç°ú Çâ¼ö</h2>
                         </div>
-                        <div class="about_text">ì‚¬ëžŒì€ ê°ìžê°€ ì£¼ì²´ì ì´ê³  ê°œì„± ìžˆëŠ” ì‚¶ì— ëŒ€í•œ ìš•êµ¬ë¥¼ í‘œí˜„í•˜ê³  ì‹¶ì–´í•˜ê³ , ëŒ€ë¶€ë¶„ì˜ ê²½ìš° ì™¸ì ìœ¼ë¡œ ë“œëŸ¬ë‚˜ëŠ” íŒ¨ì…˜ê³¼ í–¥ìˆ˜ë¥¼ ì´ìš©í•œë‹¤. ê° ë¶„ì•¼ë¥¼ ì²˜ìŒ ì ‘í•˜ëŠ” ì‚¬ëžŒì˜ ê²½ìš° ì¸í”Œë£¨ì–¸ì„œ ë˜ëŠ” ìœ í–‰ì„ ë”°ë¼í•˜ëŠ” ê²ƒìœ¼ë¡œ ì‹œìž‘í•œë‹¤.
-                            ë‹¤ì–‘í•œ ì¶”ì²œì„ ë°”íƒ•ìœ¼ë¡œ ì§ì ‘ â€˜ë‚˜â€™ì—ê²Œ ì ìš©í•˜ëŠ” ê³¼ì •ì„ í†µí•´ ìžì‹ ì˜ ê°œì„±ê³¼ <br>ì·¨í–¥ì„ í‘œì¶œí•˜ëŠ” ì²« ë‹¨ì¶”ë¡œì¨ íŒ¨ì…˜ê³¼ í–¥ìˆ˜ë¥¼ ì´ìš©í•˜ê³ ìž í•œë‹¤.
+                        <div class="about_text">»ç¶÷Àº °¢ÀÚ°¡ ÁÖÃ¼ÀûÀÌ°í °³¼º ÀÖ´Â »î¿¡ ´ëÇÑ ¿å±¸¸¦ Ç¥ÇöÇÏ°í ½Í¾îÇÏ°í, ´ëºÎºÐÀÇ °æ¿ì ¿ÜÀûÀ¸·Î µå·¯³ª´Â ÆÐ¼Ç°ú Çâ¼ö¸¦ ÀÌ¿ëÇÑ´Ù. °¢ ºÐ¾ß¸¦ Ã³À½ Á¢ÇÏ´Â »ç¶÷ÀÇ °æ¿ì ÀÎÇÃ·ç¾ð¼­ ¶Ç´Â À¯ÇàÀ» µû¶óÇÏ´Â °ÍÀ¸·Î ½ÃÀÛÇÑ´Ù.
+                            ´Ù¾çÇÑ ÃßÃµÀ» ¹ÙÅÁÀ¸·Î Á÷Á¢ ¡®³ª¡¯¿¡°Ô Àû¿ëÇÏ´Â °úÁ¤À» ÅëÇØ ÀÚ½ÅÀÇ °³¼º°ú <br>ÃëÇâÀ» Ç¥ÃâÇÏ´Â Ã¹ ´ÜÃß·Î½á ÆÐ¼Ç°ú Çâ¼ö¸¦ ÀÌ¿ëÇÏ°íÀÚ ÇÑ´Ù.
                                 </div>
                     </div>
+                    
                 </div>   
                 
-            </div>  
-        </div>   
+            </div>   
+       
         
 
     <!------ footer ---------->
@@ -74,8 +79,8 @@
                             <li><span class="label"><i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</span></li>
                             <li><span class="label"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</span></li>
                         </ul>
-                        <p>ê´‘ì£¼ê´‘ì—­ì‹œ ë‚¨êµ¬ ì†¡í•˜ë™<br />
-                        ì†¡ì•”ë¡œ 60 ê´‘ì£¼ CGIì„¼í„° 2ì¸µ <br />
+                        <p>±¤ÁÖ±¤¿ª½Ã ³²±¸ ¼ÛÇÏµ¿<br />
+                        ¼Û¾Ï·Î 60 ±¤ÁÖ CGI¼¾ÅÍ 2Ãþ <br />
                         (062)655-3509</p>
                     </div>
                 
@@ -86,18 +91,18 @@
                 <div class="footer-col-3">
                     <h3>MY PAGE</h3>
                     <ul>
-                        <li>í”„ë¡œí•„ ìˆ˜ì •</li>
-                        <li>ì°œ ëª©ë¡</li>
-                        <li>ì¶”ì²œë°›ì€ ëª©ë¡</li>
-                        <li>ê²Œì‹œê¸€ ê´€ë¦¬</li>
+                        <li>ÇÁ·ÎÇÊ ¼öÁ¤</li>
+                        <li>Âò ¸ñ·Ï</li>
+                        <li>ÃßÃµ¹ÞÀº ¸ñ·Ï</li>
+                        <li>°Ô½Ã±Û °ü¸®</li>
                     </ul>
                 </div>
                 <div class="footer-col-4">
-                    <h3>ë©”ì¸ íŽ˜ì´ì§€</h3>
+                    <h3>¸ÞÀÎ ÆäÀÌÁö</h3>
                     <ul>
-                        <li>ì½”ë”” ì¶”ì²œ ë°›ê¸°</li>
-                        <li>ì°œ BEST</li>
-                        <li>ì¢‹ì•„ìš” BEST</li>
+                        <li>ÄÚµð ÃßÃµ ¹Þ±â</li>
+                        <li>Âò BEST</li>
+                        <li>ÁÁ¾Æ¿ä BEST</li>
                         <li>COMMUNITY</li>
                     </ul>
                 </div>

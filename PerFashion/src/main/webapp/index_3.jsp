@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +28,7 @@
                 <nav>
                     <ul>
                         <li><a href="">LOGIN</a></li>
-                        <li><a href="about_3.html">ABOUT</a></li>
+                        <li><a href="about_3.jsp">ABOUT</a></li>
                         <li><a href="">COMMUNITY</a></li>
                         <li><a href="">MY PAGE</a></li>
                     </ul>

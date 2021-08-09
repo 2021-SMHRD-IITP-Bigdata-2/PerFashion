@@ -1,14 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-    
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about</title>
-   	<link rel="stylesheet" href="css_3/style_3.css">
+    <title>ÀüÃ¼º¸±â</title>
+    <link rel="stylesheet" href="css_3/style_3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index_3.jsp"><img src="images_3/logo3.png" width="125px"></a>
+                    <a href="index_3.html"><img src="images_3/logo3.png" width="125px"></a>
                 </div>
                 <h1 class = "jjim">ABOUT</h1>
                 <nav>
@@ -38,8 +38,7 @@
         </div>
     </div>
     <!------ Âò BEST categories ---------->
-        
-            <div class="categories">
+        <div class="categories">
             <div class="small-container_about">
                     <div class="about_line">
                         <div class="about">
@@ -64,7 +63,6 @@
                 </div>   
                 
             </div>   
-       
         
 
     <!------ footer ---------->

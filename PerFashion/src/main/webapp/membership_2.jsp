@@ -39,11 +39,11 @@
 
     <div class="center">
         <h1>PerFashion</h1>
-        <form method="POST">
+       
             
-            
+            <form action="joincon_4" method="post">
             <div class="txt_field">
-                <input type="text" required>
+                <input type="text" required  name="email_id">
                 <span></span>
                 <label>ID</label>
             
@@ -60,18 +60,18 @@
             </div>
 
             <div class="txt_field">
-                <input type="text" required>
+                <input type="text" required name="nickname">
                 <span></span>
                 <label>닉네임</label>
                 
             </div>
             <div class="txt_field">
-                <input type="password" required>
+                <input type="password" required name="pw">
                 <span></span>
                 <label>비밀번호</label>
             </div>
             <div class="txt_field">
-                <input type="email" required>
+                <input type="password" required name="re_pw">
                 <span></span>
                 <label>비밀번호 재입력</label>
             </div>

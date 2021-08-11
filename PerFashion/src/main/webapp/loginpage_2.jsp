@@ -40,12 +40,12 @@
     <div class="center">
         <h1>PerFashion</h1>
         <form method="POST">
-            <div class="txt_field">
+            <div class="txt_field" name="email_id">
                 <input type="text" required>
                 <span></span>
                 <label>아이디</label>
             </div>
-            <div class="txt_field">
+            <div class="txt_field" name="pw">
                 <input type="password" required>
                 <span></span>
                 <label>비밀번호</label>

@@ -70,8 +70,8 @@
             </div>
         </div>
 
-<!-- 헤어스타일 선택 슬라이드 -->
-    <form>
+<!-- 스타일 선택 슬라이드 -->
+<form action="5_step_1.jsp">
         <div style="width: 500px; margin-bottom: 10px;">
             <label><input type='checkbox' name='style' value='전체선택' onclick='selectAll(this)'>
                 <div id="selectall" style="width:80px; color: rgb(126, 126, 126);">전체선택</div>
@@ -179,7 +179,7 @@
 <!-- footer -->
     <div class="footer">
         <div class="container">
-            <div class="row">
+            <div class="footer_row">
                 <div class="footer-col-1">
                     <h3>Contact Us</h3>
                         <ul>

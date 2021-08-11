@@ -61,38 +61,35 @@
 <br>
 <br>
 
-<form>
-    <div class="result-div">
-        <div class="result-tri"></div>
-        <div class="result-number">01</div>
-        <input class="result-image" type='image' src="img_1/place/club.png" align=top border=0 alt='Click!'>
-        <!-- <span class="like-btn xi-heart"></span> -->
-        <label><input type="checkbox" value="서버에서 가져온 값.코딩하기">
-            <i class="like-btn xi-heart-o"></i>
-            <i class="like-btn xi-heart" style="display: none;"></i>
-        </label>
-    </div>
-    <div class="result-div">
-        <div class="result-tri"></div>
-        <div class="result-number">02</div>
-        <input class="result-image" type='image' src="img_1/top/leather-jacket2.png" align=top border=0 alt='Click!'>
-        <!-- <span class="like-btn xi-heart"></span> -->
-        <label><input type="checkbox" value="서버에서 가져온 값.코딩하기">
-            <i class="like-btn xi-heart-o"></i>
-            <i class="like-btn xi-heart" style="display: none;"></i>
-        </label>
-    </div>
-    <div class="result-div">
-        <div class="result-tri"></div>
-        <div class="result-number">03</div>
-        <input class="result-image" type='image' src="img_1/hair/dandy2.png" align=top border=0 alt='Click!'>
-        <!-- <span class="like-btn xi-heart"></span> -->
-        <label><input type="checkbox" value="서버에서 가져온 값.코딩하기">
-            <i class="like-btn xi-heart-o"></i>
-            <i class="like-btn xi-heart" style="display: none;"></i>
-        </label>
-
-    </div>
+	<div class="form-inline">
+		<form action="cody_result_detail_1.jsp">
+		    <div class="result-div">
+		        <div class="result-tri"></div>
+		        <div class="result-number">01</div>
+	       		<input class="result-image" type='image' src="img_1/place/club.png" align=top border=0 alt='Click!'>
+		    </div>
+	    </form>
+	</div>
+	
+	<div class="form-inline">
+		<form action="cody_result_detail_1.jsp">
+		    <div class="result-div">
+		        <div class="result-tri"></div>
+		        <div class="result-number">02</div>
+		        <input class="result-image" type='image' src="img_1/top/leather-jacket2.png" align=top border=0 alt='Click!'>
+		    </div>
+	    </form>
+	</div>
+	
+	<div class="form-inline">
+    	<form action="cody_result_detail_1.jsp">
+		    <div class="result-div">
+		        <div class="result-tri"></div>
+		        <div class="result-number">03</div>
+		        <input class="result-image" type='image' src="img_1/hair/dandy2.png" align=top border=0 alt='Click!'>
+		    </div>
+		</form>
+	</div>
 
     <!-- 이전, 다음 버튼 -->
     <br>
@@ -109,7 +106,7 @@
 <!-- footer -->
     <div class="footer">
         <div class="container">
-            <div class="row">
+            <div class="footer_row">
                 <div class="footer-col-1">
                     <h3>Contact Us</h3>
                         <ul>

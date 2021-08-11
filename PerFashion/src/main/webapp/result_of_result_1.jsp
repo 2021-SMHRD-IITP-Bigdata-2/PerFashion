@@ -116,39 +116,39 @@
 
 
 			<!-- SNS버튼 시작 -->
-			<regend>dd</regend> <!-- ????  -->
-			<div>공유하기</div>
-			<br>
-			<div style="width: 500px; text-align: center; margin-bottom: 64px;"> 
-				<!-- 페이스북 공유 버튼 --> 
-				<a href="" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600, height=600'); return false;">
-				<img src="img_1/sns/facebook.gif" title="페이스북으로 공유하기" class="sharebtn_custom" style="width: 32px;"></a> 
-				<!-- 트위터 공유 버튼 --> 
-				<a href="" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600, height=600'); return false;">
-				<img src="img_1/sns/tw.gif" title="트위터로 공유하기" class="sharebtn_custom" style="width: 32px;"></a> 
-				<!-- 카카오 스토리 공유 버튼 --> 
-				<a href="" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600, height=600'); return false;">
-				<img src="img_1/sns/caca.gif" title="카카오스토리로 공유하기" class="sharebtn_custom" style="width: 32px;"></a> 
-				<!-- 네이버 공유 버튼 --> 
-				<a href="" onclick="window.open(url_combine_naver, '', 'scrollbars=no, width=600, height=600'); return false;">
-				<img src="img_1/sns/naver.gif" title="네이버로 공유하기" class="sharebtn_custom" style="width: 32px;"></a> 
-				<!-- 밴드 공유 버튼 --> <a href="" onclick="window.open(url_combine_band, '', 'scrollbars=no, width=584, height=635'); return false;">
-				<img src="img_1/sns/band.gif" title="밴드로 공유하기" class="sharebtn_custom" style="width: 32px;"></a> 
-			</div> 
-			<!-- SNS버튼 끝 -->
-
+	 <fieldset class="result-sns-fieldset">
+        <legend>  공유하기</legend>
+		<br>
+		<div style="width: 300px; text-align: center; margin-bottom: 64px;"> 
+			<!-- 페이스북 공유 버튼 --> 
+			<a href="" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600, height=600'); return false;">
+			<img src="img_1/sns/facebook.gif" title="페이스북으로 공유하기" class="sharebtn_custom" style="width: 32px;"></a> 
+			<!-- 트위터 공유 버튼 --> 
+			<a href="" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600, height=600'); return false;">
+			<img src="img_1/sns/tw.gif" title="트위터로 공유하기" class="sharebtn_custom" style="width: 32px;"></a> 
+			<!-- 카카오 스토리 공유 버튼 --> 
+			<a href="" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600, height=600'); return false;">
+			<img src="img_1/sns/caca.gif" title="카카오스토리로 공유하기" class="sharebtn_custom" style="width: 32px;"></a> 
+			<!-- 네이버 공유 버튼 --> 
+			<a href="" onclick="window.open(url_combine_naver, '', 'scrollbars=no, width=600, height=600'); return false;">
+			<img src="img_1/sns/naver.gif" title="네이버로 공유하기" class="sharebtn_custom" style="width: 32px;"></a> 
+			<!-- 밴드 공유 버튼 --> <a href="" onclick="window.open(url_combine_band, '', 'scrollbars=no, width=584, height=635'); return false;">
+			<img src="img_1/sns/band.gif" title="밴드로 공유하기" class="sharebtn_custom" style="width: 32px;"></a> 
+		</div> 
+		<!-- SNS버튼 끝 -->
+	</fieldset>
 
         </div>
     </form>
 
 </center>
 
-<br><br><br><br><br><br><br><br><br>
+<br><br><br><br>
     
 <!-- footer -->
     <div class="footer">
         <div class="container">
-            <div class="row">
+            <div class="footer_row">
                 <div class="footer-col-1">
                     <h3>Contact Us</h3>
                         <ul>

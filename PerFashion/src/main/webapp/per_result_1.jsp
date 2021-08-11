@@ -51,7 +51,7 @@
 
 <center>
 
-<form>
+<form action="result_of_result_1.jsp">
         <!-- 결과 표시 화면 -->
         <div class="result-detail">
 
@@ -117,7 +117,7 @@
 <!-- footer -->
     <div class="footer">
         <div class="container">
-            <div class="row">
+            <div class="footer_row">
                 <div class="footer-col-1">
                     <h3>Contact Us</h3>
                         <ul>

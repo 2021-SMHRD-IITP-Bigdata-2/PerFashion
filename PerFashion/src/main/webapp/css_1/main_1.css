@@ -404,11 +404,17 @@ div button.slick-next::before{
     font-size: 20px;
 }
 
+.form-inline{
+	display: inline-block;
+}
+
+
 .result-image{
     /* border:1px solid red; */
     width: 300px;
     margin-left:5px;
     margin-right: 5px;
+    display: inline-block;
 }
 
 .result-tri{
@@ -442,7 +448,7 @@ div button.slick-next::before{
 .result-detail{
     margin-top: 80px;
     margin-left: 80px;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
     /* align-items: center; */
 }
 
@@ -514,7 +520,7 @@ a>img{
 .detail-like-btn{
     background-color: transparent !important;
     cursor: pointer;
-    margin-right: 30px;
+    margin-left: 370px;
     color: rgb(255, 255, 255);
     transform: translateY(-160%);
     z-index: 2;
@@ -530,4 +536,11 @@ a>img{
 div.detail-like-btn> i{
     font-size: 50px;
     color: white;
+}
+
+.result-sns-fieldset{
+	width: 30px;
+	height: 100px;
+	
+	text-align:center;
 }

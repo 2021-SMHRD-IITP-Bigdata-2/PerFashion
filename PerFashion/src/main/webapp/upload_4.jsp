@@ -30,7 +30,7 @@
                     <ul>
                         <li><a href="loginpage_2.jsp">LOGIN</a></li>
                         <li><a href="about_3.jsp">ABOUT</a></li>
-                        <li><a href="community_04.jsp">COMMUNITY</a></li>
+                        <li><a href="community_4.jsp">COMMUNITY</a></li>
                         <li><a href="mypage_2.jsp">MY PAGE</a></li>
                     </ul>
                 </nav>

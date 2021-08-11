@@ -75,7 +75,7 @@
 
 <!-- 상의 선택 슬라이드 -->
 
-    <form>
+    <form action="2_step_1.jsp">
         <div class="choice1">
             <div>
                 <input type="checkbox" name="top" id="short" value="short" onclick="NoMultiChkTop(this)">
@@ -180,6 +180,7 @@
             </div>
             <div class="main-btn" onclick="location.href='index_3.jsp'">메인으로</div>
             <div class="submit-div"><input type="submit" class="next-btn" onclick="Next(this)" value="다음 단계"></div>
+            <!-- 상하의 선택 없이 다음 버튼 클릭시 서블릿에서 조건줘야할 듯 -->
 
         </div>
 
@@ -190,7 +191,7 @@
 <!-- footer -->
     <div class="footer">
         <div class="container">
-            <div class="row">
+            <div class="footer_row">
                 <div class="footer-col-1">
                     <h3>Contact Us</h3>
                         <ul>

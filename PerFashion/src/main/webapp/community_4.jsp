@@ -12,32 +12,33 @@
 	<meta name="keywords" content="web design, styles, inspiration, line, pseudo-element, SVG, animation" />
 	<meta name="author" content="Codrops" />
     <title>헤더</title>
-		<link rel="stylesheet" href="css_04_community/style_h.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    	<link rel="stylesheet" type="text/css" href="css_04_community/component.css" />
-   		<link rel="stylesheet" type="text/css" href="css_04_community/demo_m.css" />
+	
+	 <link rel="stylesheet" href="css_04_community/style_h.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <script src="js/modernizr.custom.70736.js"></script> 
+     <link rel="stylesheet" type="text/css" href="css_04_community/component.css" />  
+    <link rel="stylesheet" type="text/css" href="css_04_community/demo_m.css" />	
 </head>
 <body>
-    <body>
-		<div class="header">
-			<div class="container_h">
-				<div class="navbar">
-					<div class="logo">
-						<a href="index.html"><img src="images_04_community/logo.png" width="125px"></a>
-					</div>
-					<nav class="nav_h">
-						<ul class="ul_h">
-							<li class="li_h"><a href="">LOGIN</a></li>
-							<li class="li_h"><a href="">ABOUT</a></li>
-							<li class="li_h"><a href="">COMMUNITY</a></li>
-							<li class="li_h"><a href="">MY PAGE</a></li>
-						</ul>
-					</nav>
+      <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index_3.jsp"><img src="images_3/logo3.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="loginpage_2.jsp">LOGIN</a></li>
+                        <li><a href="about_3.jsp">ABOUT</a></li>
+                        <li><a href="community_4.jsp">COMMUNITY</a></li>
+                        <li><a href="mypage_2.jsp">MY PAGE</a></li>
+                    </ul>
+                </nav>
+            </div>
 
-				</div> 
-			</div>
-		</div>
+        </div>
+    </div>
 		<center>
 		<div class="container">						
 			<section class="section section--menu" id="Prospero">
@@ -56,7 +57,11 @@
 			</section>		
 
 
-
+			<div class="image_id">
+                    <div class="profile-user-img">
+                        <image src="images_04_community/medium/plus.png" class="profile-user-img-img" onclick="javascript:location.href='upload_4.jsp';">
+                    </div>
+            </div>
 			<div class="grid">
 				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
 					<img src=images_04_community/medium/cody1.jpg class="image">
@@ -252,7 +257,7 @@
 	</div>
 </div>
 
-<script src="js_04_community/classie.js"></script>
+ <script src="js_04_community/classie.js"></script> 
 		<script src="js_04_community/clipboard.min.js"></script>
 		<script>
 		(function() {
@@ -290,6 +295,7 @@
 			});
 		})(window);
 		</script>
+		
 		<script type="text/javascript">
 	
 			function SetGridItemHeight() {
@@ -298,17 +304,21 @@
 				let rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
 	
 				let item = grid.getElementsByClassName('item');
+				console.log(item);
 				for (let i = 0; i < item.length; ++i) {
-					item[i].style.gridRowEnd = `span ${Math.floor((item[i].children[0].offsetHeight) / 25)}`
+					item[i].style.gridRowEnd = 'span '+Math.floor((item[i].children[0].offsetHeight) / 25)
+					
+						 
 				}
 			}
 	
 			window.addEventListener("load", SetGridItemHeight);
 			window.addEventListener("resize", SetGridItemHeight);
 		</script>
-
 	
+		
 	
 
 </body>
 </html>
+    

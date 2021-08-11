@@ -14,22 +14,22 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="header">
-        <div class="container_h">
+      <div class="header">
+        <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index.html"><img src="images_04_post/logo.png" width="125px"></a>
+                    <a href="index_3.jsp"><img src="images_3/logo3.png" width="125px"></a>
                 </div>
-                <nav class="nav_h">
-                    <ul class="ul_h">
-                        <li class="li_h"><a href="">LOGIN</a></li>
-                        <li class="li_h"><a href="">ABOUT</a></li>
-                        <li class="li_h"><a href="">COMMUNITY</a></li>
-                        <li class="li_h"><a href="">MY PAGE</a></li>
+                <nav>
+                    <ul>
+                        <li><a href="loginpage_2.jsp">LOGIN</a></li>
+                        <li><a href="about_3.jsp">ABOUT</a></li>
+                        <li><a href="community_04.jsp">COMMUNITY</a></li>
+                        <li><a href="mypage_2.jsp">MY PAGE</a></li>
                     </ul>
                 </nav>
-                <!-- img src="images/아이콘추가가능" width="30px" height="30px" -->
-            </div> 
+            </div>
+
         </div>
     </div>
     <main>

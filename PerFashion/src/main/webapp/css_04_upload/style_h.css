@@ -1,35 +1,37 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 .body{
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+
 .navbar{
+    
     display: flex;
     align-items: center;
     padding : 20px;
 }
 
-.nav_h{
+nav{
     flex: 1;
     text-align: right;
 }
 
-.ul_h{
+nav ul{
     display: inline-block;
     list-style-type: none;
 }
 
-.li_h{
+nav ul li{
     display: inline-block;
     margin-right: 20px;
 }
 
-a{
+li > a{
     text-decoration: none;
     color: white;
 }
@@ -38,7 +40,7 @@ p{
     color: #fff;
 }
 
-.container_h{
+.container{
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
@@ -46,6 +48,7 @@ p{
 }
 
 .row{
+    margin-top: 165px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -76,6 +79,7 @@ p{
     margin: 30px 0;
     border-radius: 8px;
     transition: background 0.5s;
+    font-weight: bold;
 }
 
 .btn:hover{
@@ -86,25 +90,36 @@ p{
     background: black;
 }
 
+.banner{
+    background: black
+}
+
+.col-2 img{
+    background: rgb(black, 0, 0, #110F12)
+}
 /* categories */
 .categories{
+    
     margin: 70px 0;
 }
 
 .col-3{
+    
     flex-basis: 30%;
     min-width : 250px;
     margin-bottom: 30px;
+    margin-top : 30px;
 }
 
 .col-3 img{
     width: 100%;
 }
 .small-container{
+    
     max-width: 1400px;
     margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .title{
@@ -124,6 +139,14 @@ p{
     padding: 60px 0 20px;
 
 }
+
+.footer_row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 
 .footer p{
     color : #8a8a8a;
@@ -187,7 +210,7 @@ ul{
     margin-right: 20px;
 }
 
-/* BEST, Ï†ÑÏ≤¥Î≥¥Í∏∞ Í∞ÄÎ°úÎ∞∞Ïπò css */
+/* BEST, ¿¸√º∫∏±‚ ∞°∑ŒπËƒ° css */
 .best{
     margin: 0;
     overflow: hidden;
@@ -214,20 +237,44 @@ ul{
     color: black;
 }
 
-/* Ïù¥ÎØ∏ÏßÄÏúÑÏóê ÌïòÌä∏ ÏïÑÏù¥ÏΩò Î∞∞Ïπò */
-.likeBtn{
+/* ¿ÃπÃ¡ˆ¿ßø° «œ∆Æ æ∆¿Ãƒ‹ πËƒ° */
+/* .likeBtn{
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     right: 20px;
-    z-index: 2;
-    color: whitesmoke;
+    z-index: 1;
+    color: red;
     text-align: right;
     width: 30px;
     height: 30px;
+} */
+
+/* .likeBtn{
+    color: red;
+} */
+.swiper-slide input{
+    display: none;
 }
 
-.likeBtn:hover{
+.swiper-slide i{
+    margin-left: 360px;
+    margin-top: 625px;
+    cursor: pointer;
+    position: absolute;
     color: red;
+}
+
+.swiper-slide i:last-child{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.swiper-slide input:checked + label i:last-child{
+    opacity: 1;
+}
+
+.fa.fa-heart-o{
+    font-size: 30px;
 }
 
 .col-3{
@@ -235,8 +282,10 @@ ul{
     width: 100%;
 }
 
-/* Îã§Ï§ë Ïù¥ÎØ∏ÏßÄ Ïä¨ÎùºÏù¥Îìú */
-
+/* ¥Ÿ¡ﬂ ¿ÃπÃ¡ˆ ΩΩ∂Û¿ÃµÂ */
+.swiper-wrapper{
+    height: 700px !important;
+}
 .swiper-container {
     width: 100%;
     height: 100%;
@@ -252,7 +301,7 @@ ul{
 
 .swiper-slide img{
     width: 100%;
-    width: 415px;
+    width: 410px;
     height: 700px;
 }
 
@@ -265,4 +314,87 @@ ul{
 .swiper-button-prev {
     left: 50px !important;
     color: whitesmoke !important;
+}
+
+.jjim{
+    color: whitesmoke;
+    display: inline-block;
+    margin: center;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.header_slide{
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.small-container_jjim{
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 200px;
+}
+
+/* about */
+.small-container_about{
+    max-width: 600px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 230px;
+}
+
+.about{
+    flex-basis: 30%;
+    min-width : 400px;
+    margin-bottom: 30px;
+    margin-top : 30px;
+}
+
+.about img{
+    width: 100%
+}
+
+.about_title{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.about_text{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* ¿¸√º∫∏±‚  */
+.col-3 input{
+    display: none;
+}
+
+.col-3 i{
+    margin-left: -50px;
+    margin-top: 550px;
+    cursor: pointer;
+    position: absolute;
+    color: red;
+}
+
+.col-3 i:last-child{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.col-3 input:checked + label i:last-child{
+    opacity: 1;
+}
+
+.fa.fa-heart-o{
+    font-size: 30px;
 }

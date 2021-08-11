@@ -25,10 +25,10 @@
                 <h1 class = "jjim">찜 BEST</h1>
                 <nav>
                     <ul>
-                        <li><a href="">LOGIN</a></li>
-                        <li><a href="">ABOUT</a></li>
-                        <li><a href="">COMMUNITY</a></li>
-                        <li><a href="">MY PAGE</a></li>
+                        <li><a href="loginpage_2.jsp">LOGIN</a></li>
+                        <li><a href="about_3.jsp">ABOUT</a></li>
+                        <li><a href="community_04.jsp">COMMUNITY</a></li>
+                        <li><a href="mypage_2.jsp">MY PAGE</a></li>
                     </ul>
                 </nav>
                 <!-- img src="images/아이콘추가가능" width="30px" height="30px" -->
@@ -40,58 +40,103 @@
             <div class="small-container_jjim">
                     <div class="row">
                         <div class="col-3">
-                            <img class = "image" src="images_3/pic01.jpg">
-                            <div href="#" class = "likeBtn">
-                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                            </div>
+                            <form action="">
+                                <div style="position: relative;"><img src="images_3/pic01.jpg">
+                                    <input style="position: absolute;" type= "checkbox" id="all_heart-01">
+                                        <label  for = "all_heart-01">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                        </label>
+                                </div> 
+                            </form>
                         </div>
                         <div class="col-3">
-                            <img class = "image" src="images_3/pic02.jpg">
-                            <div href="#" class = "likeBtn">
-                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                            </div>
+                            <form action="">
+                                <div><img src="images_3/pic02.jpg">
+                                    <input style="position: absolute;" type= "checkbox" id="all_heart-02">
+                                        <label  for = "all_heart-02">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                        </label>
+                                </div> 
+                            </form>
                         </div>
                         <div class="col-3">
-                            <img class = "image" src="images_3/pic03.jpg">
-                            <div href="#" class = "likeBtn">
-                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                            </div>
+                            <form action="">
+                                <div><img src="images_3/pic03.jpg">
+                                    <input style="position: absolute;" type= "checkbox" id="all_heart-03">
+                                        <label  for = "all_heart-03">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                        </label>
+                                </div> 
+                            </form>
                         </div>
                         <div class="col-3">
-                            <img class = "image" src="images_3/pic04.jpg">
-                            <div href="#" class = "likeBtn">
-                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                            </div>
+                            <form action="">
+                                <div><img src="images_3/pic04.jpg">
+                                    <input style="position: absolute;" type= "checkbox" id="all_heart-04">
+                                        <label  for = "all_heart-04">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                        </label>
+                                </div> 
+                            </form>
                         </div>
                         <div class="col-3">
-                            <img class = "image" src="images_3/pic05.jpg">
-                            <div href="#" class = "likeBtn">
-                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                            </div>
+                            <form action="">
+                                <div><img src="images_3/pic05.jpg">
+                                    <input style="position: absolute;" type= "checkbox" id="all_heart-05">
+                                        <label  for = "all_heart-05">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                        </label>
+                                </div> 
+                            </form>
                         </div>
                         <div class="col-3">
-                            <img class = "image" src="images_3/pic06.jpg">
-                            <div href="#" class = "likeBtn">
-                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                            </div>
+                            <form action="">
+                                <div><img src="images_3/pic06.jpg">
+                                    <input style="position: absolute;" type= "checkbox" id="all_heart-06">
+                                        <label  for = "all_heart-06">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                        </label>
+                                </div> 
+                            </form>
                         </div>
                         <div class="col-3">
-                            <img class = "image" src="images_3/pic07.jpg">
-                            <div href="#" class = "likeBtn">
-                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                            </div>
+                            <form action="">
+                                <div><img src="images_3/pic07.jpg">
+                                    <input style="position: absolute;" type= "checkbox" id="all_heart-07">
+                                        <label  for = "all_heart-07">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                        </label>
+                                </div> 
+                            </form>
                         </div>
                         <div class="col-3">
-                            <img class = "image" src="images_3/pic08.jpg">
-                            <div href="#" class = "likeBtn">
-                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                            </div>
+                            <form action="">
+                                <div><img src="images_3/pic08.jpg">
+                                    <input style="position: absolute;" type= "checkbox" id="all_heart-08">
+                                        <label  for = "all_heart-08">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                        </label>
+                                </div> 
+                            </form>
                         </div>
                         <div class="col-3">
-                            <img class = "image" src="images_3/pic09.jpg">
-                            <div href="#" class = "likeBtn">
-                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                            </div>
+                            <form action="">
+                                <div><img src="images_3/pic09.jpg">
+                                    <input style="position: absolute;" type= "checkbox" id="all_heart-09">
+                                        <label  for = "all_heart-09">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                        </label>
+                                </div> 
+                            </form>
                         </div>
                     </div>
                 </div>   
@@ -104,7 +149,7 @@
 
     <div class="footer">
         <div class="container">
-            <div class="row">
+            <div class="footer_row">
                 <div class="footer-col-1">
                     <h3>Contact Us</h3>
                         <ul>

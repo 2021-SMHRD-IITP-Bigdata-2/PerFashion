@@ -10,6 +10,7 @@
 
 
 .navbar{
+    
     display: flex;
     align-items: center;
     padding : 20px;
@@ -40,13 +41,14 @@ p{
 }
 
 .container{
-	margin :auto;
     max-width: 1300px;
+    margin: auto;
     padding-left: 25px;
     padding-right: 25px;
 }
 
 .row{
+    margin-top: 165px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -89,8 +91,7 @@ p{
 }
 
 .banner{
-	margin-top : 160px;
-    background: black;
+    background: black
 }
 
 .col-2 img{
@@ -98,10 +99,12 @@ p{
 }
 /* categories */
 .categories{
+    
     margin: 70px 0;
 }
 
 .col-3{
+    
     flex-basis: 30%;
     min-width : 250px;
     margin-bottom: 30px;
@@ -112,10 +115,11 @@ p{
     width: 100%;
 }
 .small-container{
+    
     max-width: 1400px;
     margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .title{
@@ -135,6 +139,14 @@ p{
     padding: 60px 0 20px;
 
 }
+
+.footer_row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 
 .footer p{
     color : #8a8a8a;
@@ -226,21 +238,44 @@ ul{
 }
 
 /* 이미지위에 하트 아이콘 배치 */
-.likeBtn{
+/* .likeBtn{
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     right: 20px;
-    z-index: 2;
-    color: whitesmoke;
+    z-index: 1;
+    color: red;
     text-align: right;
     width: 30px;
     height: 30px;
+} */
+
+/* .likeBtn{
+    color: red;
+} */
+.swiper-slide input{
+    display: none;
 }
 
-.likeBtn:hover{
+.swiper-slide i{
+    margin-left: 360px;
+    margin-top: 625px;
+    cursor: pointer;
+    position: absolute;
     color: red;
 }
 
+.swiper-slide i:last-child{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.swiper-slide input:checked + label i:last-child{
+    opacity: 1;
+}
+
+.fa.fa-heart-o{
+    font-size: 30px;
+}
 
 .col-3{
     position: relative;
@@ -248,7 +283,9 @@ ul{
 }
 
 /* 다중 이미지 슬라이드 */
-
+.swiper-wrapper{
+    height: 700px !important;
+}
 .swiper-container {
     width: 100%;
     height: 100%;
@@ -264,7 +301,7 @@ ul{
 
 .swiper-slide img{
     width: 100%;
-    width: 415px;
+    width: 410px;
     height: 700px;
 }
 
@@ -334,4 +371,30 @@ ul{
     text-align: center;
     margin-top: 25px;
     margin-bottom: 15px;
+}
+
+/* 전체보기  */
+.col-3 input{
+    display: none;
+}
+
+.col-3 i{
+    margin-left: -50px;
+    margin-top: 550px;
+    cursor: pointer;
+    position: absolute;
+    color: red;
+}
+
+.col-3 i:last-child{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.col-3 input:checked + label i:last-child{
+    opacity: 1;
+}
+
+.fa.fa-heart-o{
+    font-size: 30px;
 }

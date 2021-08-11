@@ -61,40 +61,70 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img class = "image" src="images_3/pic01.jpg">
-                            <div href="#" class = "likeBtn">
-                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                            </div>
+                            <form action="">
+                                <div><img style="position: absolute;" src="images_3/pic01.jpg">
+                                    <input style="position: absolute;" type= "checkbox" id="heart-01">
+                                        <label  for = "heart-01">
+                                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                        </label>
+                                </div> 
+                            </form>
                         </div>
                         <div class="swiper-slide">
-                            <img class = "image" src="images_3/pic02.jpg">
-                            <div href="#" class = "likeBtn">
-                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                            <form action="">
+                            <div ><img style="position: absolute;" src="images_3/pic02.jpg">
+                                <input style="position: absolute;"  type= "checkbox" id="heart-02">
+                                    <label  for = "heart-02">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                    </label>
                             </div>
+                            </form> 
                         </div>
                         <div class="swiper-slide">
-                            <img class = "image" src="images_3/pic03.jpg">
-                            <div href="#" class = "likeBtn">
-                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                            </div>`
+                            <form action="">
+                            <div ><img style="position: absolute;" src="images_3/pic03.jpg">
+                                <input style="position: absolute;" type= "checkbox" id="heart-03">
+                                    <label  for = "heart-03">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                    </label>
+                            </div> 
+                            </form>
                         </div>
                         <div class="swiper-slide">
-                            <img class = "image" src="images_3/pic04.jpg">
-                            <div href="#" class = "likeBtn">
-                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                            <form action="">
+                            <div ><img style="position: absolute;" src="images_3/pic04.jpg">
+                                <input style="position: absolute;" type= "checkbox" id="heart-04">
+                                    <label  for = "heart-04">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                    </label>
                             </div>
+                            </form> 
                         </div>
                         <div class="swiper-slide">
-                            <img class = "image" src="images_3/pic05.jpg">
-                            <div href="#" class = "likeBtn">
-                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                            </div>
+                            <form action="">
+                            <div ><img style="position: absolute;" src="images_3/pic05.jpg">
+                                <input style="position: absolute;" type= "checkbox" id="heart-05">
+                                    <label  for = "heart-05">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                    </label>
+                            </div> 
+                            </form>
                         </div>
                         <div class="swiper-slide">
-                            <img class = "image" src="images_3/pic06.jpg">
-                            <div href="#" class = "likeBtn">
-                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                            </div>
+                            <form action="">
+                            <div ><img style="position: absolute;" src="images_3/pic06.jpg">
+                                <input style="position: absolute;" type= "checkbox" id="heart-06">
+                                    <label  for = "heart-06">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                    </label>
+                            </div> 
+                            </form>
                         </div>
                     </div>
                     <div class="swiper-button-prev"></div>
@@ -115,40 +145,70 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img class = "image" src="images_3/pic01.jpg">
-                        <div href="#" class = "likeBtn">
-                        <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                        </div>
+                        <form action="">
+                            <div><img style="position: absolute;" src="images_3/pic01.jpg">
+                                <input style="position: absolute;" type= "checkbox" id="heart-101">
+                                    <label  for = "heart-101">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                    </label>
+                            </div> 
+                        </form>
                     </div>
                     <div class="swiper-slide">
-                        <img class = "image" src="images_3/pic02.jpg">
-                        <div href="#" class = "likeBtn">
-                        <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                        <form action="">
+                        <div ><img style="position: absolute;" src="images_3/pic02.jpg">
+                            <input style="position: absolute;"  type= "checkbox" id="heart-102">
+                                <label  for = "heart-102">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                </label>
                         </div>
+                        </form> 
                     </div>
                     <div class="swiper-slide">
-                        <img class = "image" src="images_3/pic03.jpg">
-                        <div href="#" class = "likeBtn">
-                        <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                        </div>
+                        <form action="">
+                        <div ><img style="position: absolute;" src="images_3/pic03.jpg">
+                            <input style="position: absolute;" type= "checkbox" id="heart-103">
+                                <label  for = "heart-103">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                </label>
+                        </div> 
+                        </form>
                     </div>
                     <div class="swiper-slide">
-                        <img class = "image" src="images_3/pic04.jpg">
-                        <div href="#" class = "likeBtn">
-                        <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                        <form action="">
+                        <div ><img style="position: absolute;" src="images_3/pic04.jpg">
+                            <input style="position: absolute;" type= "checkbox" id="heart-104">
+                                <label  for = "heart-104">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                </label>
                         </div>
+                        </form> 
                     </div>
                     <div class="swiper-slide">
-                        <img class = "image" src="images_3/pic05.jpg">
-                        <div href="#" class = "likeBtn">
-                        <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                        </div>
+                        <form action="">
+                        <div ><img style="position: absolute;" src="images_3/pic05.jpg">
+                            <input style="position: absolute;" type= "checkbox" id="heart-105">
+                                <label  for = "heart-105">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                </label>
+                        </div> 
+                        </form>
                     </div>
                     <div class="swiper-slide">
-                        <img class = "image" src="images_3/pic06.jpg">
-                        <div href="#" class = "likeBtn">
-                        <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                        </div>
+                        <form action="">
+                        <div ><img style="position: absolute;" src="images_3/pic06.jpg">
+                            <input style="position: absolute;" type= "checkbox" id="heart-106">
+                                <label  for = "heart-106">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                </label>
+                        </div> 
+                        </form>
                     </div>
                 </div>
                 <div class="swiper-button-prev"></div>
@@ -162,7 +222,7 @@
 
     <div class="footer">
         <div class="container">
-            <div class="row">
+            <div class="footer_row">
                 <div class="footer-col-1">
                     <h3>Contact Us</h3>
                         <ul>

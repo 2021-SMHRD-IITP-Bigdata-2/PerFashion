@@ -43,7 +43,7 @@
                 <div class="col-2">
                     <h1 style="color: white">여러분의 취향에 맞는<br>코디와 향수를 <br>추천받아 보세요!</h1>
                     <p>헤어스타일부터 분위기,상황 등 선택하신 옵션에 따라 추천해드립니다.</p>
-                    <a href="" class="btn">추천 받기 &#8594;</a>
+                    <a href="1_step_1.jsp" class="btn">추천 받기 &#8594;</a>
                 </div>
                 <div class="col-2">
                     <img src="images_3/banner4.png">

@@ -69,7 +69,7 @@
 
     <div class="footer">
         <div class="container">
-            <div class="row">
+            <div class="footer_row">
                 <div class="footer-col-1">
                     <h3>Contact Us</h3>
                         <ul>

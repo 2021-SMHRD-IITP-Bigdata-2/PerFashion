@@ -50,8 +50,8 @@ main {
   .gap-box {
     background: darkgray;
     height: 1px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .border-dee3eb {
     border: 0px solid #dee3eb;
@@ -84,4 +84,48 @@ main {
     display: flex;
       flex-direction: column;
       text-align: left;
+}
+.detgle{
+  margin:0;
+  width:70%;
+  height:100%;
+  border:none;
+  font-size:1em;
+  padding-left: 5px;
+  
+  display:inline;
+  outline:none;
+  box-sizing: border-box;
+  color:black;
+}
+.border-dee3eb-main{
+  border: 0px solid #dee3eb;
+  height: 370px;
+
+}
+.detgle_button{
+  margin:0;
+  width: 30%;
+  height:100%;
+  
+  border:solid 1px;
+  border-radius: 10%;
+  background-color: white;
+  font-size:1em;
+  color:#d15006;
+  outline:none;
+  display:inline;
+  margin-left: -10px;
+  box-sizing: border-box;
+}
+
+.detgle_button:hover{
+  background-color: rgb(68, 67, 67);
+}
+.user_id_datgle{
+  font-size: 20px;
+    margin-left: 5px;
+    padding-top: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+
 }

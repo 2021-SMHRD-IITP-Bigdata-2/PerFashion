@@ -187,7 +187,7 @@ ul{
     margin-right: 20px;
 }
 
-/* BEST, �쟾泥대낫湲� 媛�濡쒕같移� css */
+/* BEST, 전체보기 가로배치 css */
 .best{
     margin: 0;
     overflow: hidden;
@@ -214,7 +214,7 @@ ul{
     color: black;
 }
 
-/* �씠誘몄��쐞�뿉 �븯�듃 �븘�씠肄� 諛곗튂 */
+/* 이미지위에 하트 아이콘 배치 */
 .likeBtn{
     position: absolute;
     bottom: 20px;
@@ -235,7 +235,7 @@ ul{
     width: 100%;
 }
 
-/* �떎以� �씠誘몄� �뒳�씪�씠�뱶 */
+/* 다중 이미지 슬라이드 */
 
 .swiper-container {
     width: 100%;

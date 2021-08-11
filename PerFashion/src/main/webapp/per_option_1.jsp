@@ -64,47 +64,47 @@
 <form>
     <div class="choice1">
         <div>
-            <input type="checkbox" name="place" id="wedding" value="wedding" onclick="NoMultiChkPlace(this)">
+            <input type="checkbox" name="perfume" id="wedding" value="wedding" onclick="NoMultiChkPlace(this)">
             <label for="wedding" class="one-label"><img src="img_1/place/wedding.png" alt="결혼식장"></label>
             <span>결혼식장</span>
         </div>
         <div>
-            <input type="checkbox" name="place" id="picnic" value="picnic" onclick="NoMultiChkPlace(this)">
+            <input type="checkbox" name="perfume" id="picnic" value="picnic" onclick="NoMultiChkPlace(this)">
             <label for="picnic" class="one-label"><img src="img_1/place/picnic.png" alt="피크닉"></label>
             <span>피크닉</span>
         </div>
         <div>
-            <input type="checkbox" name="place" id="club" value="club" onclick="NoMultiChkPlace(this)">
+            <input type="checkbox" name="perfume" id="club" value="club" onclick="NoMultiChkPlace(this)">
             <label for="club" class="one-label"><img src="img_1/place/club6.png" alt="클럽"></label>
             <span>클럽</span>
         </div>
         <div>
-            <input type="checkbox" name="place" id="daily" value="daily" onclick="NoMultiChkPlace(this)">
+            <input type="checkbox" name="perfume" id="daily" value="daily" onclick="NoMultiChkPlace(this)">
             <label for="daily" class="one-label"><img src="img_1/place/wedding.png" alt="데일리"></label>
             <span>데일리</span>
         </div>
         <div>
-            <input type="checkbox" name="place" id="sport" value="sport" onclick="NoMultiChkPlace(this)">
+            <input type="checkbox" name="perfume" id="sport" value="sport" onclick="NoMultiChkPlace(this)">
             <label for="sport" class="one-label"><img src="img_1/place/wedding.png" alt="운동"></label>
             <span>운동</span>
         </div>
         <div>
-            <input type="checkbox" name="place" id="campus" value="campus" onclick="NoMultiChkPlace(this)">
+            <input type="checkbox" name="perfume" id="campus" value="campus" onclick="NoMultiChkPlace(this)">
             <label for="campus" class="one-label"><img src="img_1/place/wedding.png" alt="캠퍼스"></label>
             <span>캠퍼스</span>
         </div>
         <div>
-            <input type="checkbox" name="place" id="meeting" value="meeting" onclick="NoMultiChkPlace(this)">
+            <input type="checkbox" name="perfume" id="meeting" value="meeting" onclick="NoMultiChkPlace(this)">
             <label for="meeting" class="one-label"><img src="img_1/place/wedding.png" alt="미팅"></label>
             <span>미팅</span>
         </div>
         <div>
-            <input type="checkbox" name="place" id="travel" value="travel" onclick="NoMultiChkPlace(this)">
+            <input type="checkbox" name="perfume" id="travel" value="travel" onclick="NoMultiChkPlace(this)">
             <label for="travel" class="one-label"><img src="img_1/place/wedding.png" alt="여행"></label>
             <span>여행</span>
         </div>
     </div>
-</form>
+
 
 
 <br>
@@ -117,7 +117,7 @@
         <input type="submit" class="perfume-btn" onclick="location.href='#'" value="향수추천받기">
 </div>
 
-
+</form>
 </center>
 
 
@@ -131,7 +131,7 @@ $('.choice1').slick({
 });
 
 function NoMultiChkPlace(chk){
-    var obj = document.getElementsByName("place");
+    var obj = document.getElementsByName("perfume");
     for(var i=0; i<obj.length; i++){ 
         if(obj[i] !=chk){ 
             obj[i].checked=false; 

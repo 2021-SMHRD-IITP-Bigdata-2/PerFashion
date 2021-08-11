@@ -51,7 +51,7 @@
 
 <center>
 
-    <form>
+<form>
         <!-- 결과 표시 화면 -->
         <div class="result-detail">
 
@@ -109,8 +109,8 @@
 
         </div>
     </form>
-
 </center>
+
 
 <script>
 

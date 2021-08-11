@@ -52,6 +52,7 @@
 
 <!-- 숫자 바 -->
 <center>
+
     <div class="step">
         <div class="bar">
             <div data-circle-three="" class="circle" style="right: 0px;">
@@ -114,7 +115,6 @@
             <span>여행</span>
         </div>
     </div>
-</form>
 <br>
 
 <!-- 이전, 다음 버튼 -->
@@ -123,11 +123,12 @@
         <span id ="choice-skip" onclick="location.href='4_step_1.jsp'"><U>SKIP</U></span>
     </div>
     <div class="pre-btn" onclick="location.href='2_step_1.jsp'">이전 단계</div>
-        <div class="next-btn" onclick="location.href='4_step_1.jsp'">다음 단계</div>
+    <div class="submit-div"><input type="submit" class="next-btn" onclick="Next(this)" value="다음단계"></div>
 
 </div>
 
 
+</form>
 </center>
 
 

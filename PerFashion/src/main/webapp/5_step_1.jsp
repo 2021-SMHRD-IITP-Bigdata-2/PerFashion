@@ -64,6 +64,7 @@
             <h5> 이제 한단계 남았어요!</h5>
         </div>
 
+<form>
         <div class ="choice5">
 
                 <label><input type="checkbox" name="color" id="red" value="red">
@@ -102,10 +103,12 @@
             <span id ="choice-skip" onclick="location.href='6_step_1.jsp'"><U>SKIP</U></span>
         </div>
         <div class="pre-btn" onclick="location.href='4_step_1.jsp'">이전 단계</div>
-        <div class="next-btn" onclick="location.href='6_step_1.jsp'">다음 단계</div>
+        <div class="submit-div"><input type="submit" class="next-btn" onclick="Next(this)" value="다음단계"></div>
 
         </div>
     </div>
+   
+</form>
 </center>
 
 

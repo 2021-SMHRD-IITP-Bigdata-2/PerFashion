@@ -62,7 +62,6 @@
 
 
 <!-- 옵션 선택 -->
-
         <div class="step-guide">
             <div>
                 <h2> 어떤 헤어스타일을 하고 있으세요? </h2>
@@ -129,13 +128,12 @@
             <span id ="choice-skip" onclick="location.href='3_step_1.jsp'"><U>SKIP</U></span>
         </div>
         <div class="pre-btn" onclick="location.href='1_step_1.jsp'">이전 단계</div>
-            <div class="next-btn" onclick="location.href='3_step_1.jsp'">다음 단계</div>
+        <div class="submit-div"><input type="submit" class="next-btn" onclick="Next(this)" value="다음단계"></div>
 
     </div>
-
-
+</form>
 </center>
-    
+
 
 
 

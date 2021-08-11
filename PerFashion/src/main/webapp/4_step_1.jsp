@@ -158,7 +158,6 @@
 
         <div id="boxWrap">  </div>
 
-    </form>
 
 
 
@@ -168,10 +167,11 @@
             <span id ="choice-please"> 한가지 이상골라주세요</span>
         </div>
         <div class="pre-btn" onclick="location.href='3_step_1.jsp'">이전 단계</div>
-        <div class="next-btn" onclick="Next(this)">다음 단계</div>
+        <div class="submit-div"><input type="submit" class="next-btn" onclick="Next(this)" value="다음단계"></div>
 
     </div>
 
+</form>
 </center>
     
 

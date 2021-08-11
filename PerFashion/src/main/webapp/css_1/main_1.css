@@ -1,17 +1,14 @@
 *{
     word-break: keep-all;
-}
-
-body{
     font-family: 'Noto Sans KR', sans-serif;
     -webkit-user-select: none;
     user-select: none;
-
 }
+
 span{
     color: black;
 }
-/* ë“œë˜ê·¸ ë°©ì§€ css
+/* µå·¡±× ¹æÁö css
 div.stop-dragging{
     -ms-user-select: none; 
     -moz-user-select: -moz-none;
@@ -176,7 +173,7 @@ input[name="color"]:checked + div{
 
 
 
-/* í…ìŠ¤íŠ¸ ê¹œë¹¡ì„ íš¨ê³¼*/
+/* ±Û¾¾ ¹İÂ¦È¿°ú
 /* .blinking{ 
     animation: 0.5s ease-in-out infinite alternate; 
 }
@@ -205,24 +202,27 @@ input[name="color"]:checked + div{
     width: 900px;
     margin-top: 30px;
     /* border: 1px solid red; */
-
 }
 
-.main-btn{
+.submit-div{
+    display: inline-block;
+}
+
+.main-btn, .pre-btn{
     cursor:pointer;
     display: inline-block; 
     background: transparent; 
     color: black; 
     font-size: 15px;
 }
-.main-btn:hover, #choice-skip:hover,
+.main-btn:hover, .pre-btn:hover, #choice-skip:hover,
 .cody-reset:hover{
     color:brown;
 }
-.next-btn, .pre-btn{
+.next-btn{
     cursor:pointer;
     /* margin-top: 50px; */
-    padding-top: 10px;
+    /* padding-top: 0px; */
     display:inline-block;
     background: black; 
     color: white;
@@ -230,6 +230,7 @@ input[name="color"]:checked + div{
     height: 50px;
     font-size: 20px;
     border-radius: 10px;
+    border: 0px;
 }
 .perfume-btn{
     cursor:pointer;
@@ -244,7 +245,7 @@ input[name="color"]:checked + div{
     border-radius: 10px;
 }
 
-.next-btn:hover, .pre-btn:hover,
+.next-btn:hover,
 .send:hover, .perfume-btn:hover{
     background-color: burlywood;
     color: black;
@@ -319,7 +320,7 @@ input[name="color"]:checked + div{
 
 
 
-/* ìŠ¬ë¼ì´ë“œ ë²„íŠ¼ */
+/* ½½¶óÀÌµå ¹öÆ° */
 div button{
     position: absolute;
     z-index: 10;
@@ -375,7 +376,7 @@ div button.slick-next::before{
 
 
 
-/* ê²°ê³¼í™”ë©´ */
+/* °á°úÈ­¸é */
 .result-guide{   
     position: relative;
     margin-top: 90px;
@@ -437,7 +438,7 @@ div button.slick-next::before{
 }
 
 
-/* ê²°ê³¼ìƒì„¸í™”ë©´ */
+/* °á°ú »ó¼¼È­¸é */
 .result-detail{
     margin-top: 80px;
     margin-left: 80px;

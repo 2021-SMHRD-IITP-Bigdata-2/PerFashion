@@ -35,7 +35,6 @@ public class PerFashionDAO {
 	}
 	
 	public void close() {
-		
 
 		try {
 			

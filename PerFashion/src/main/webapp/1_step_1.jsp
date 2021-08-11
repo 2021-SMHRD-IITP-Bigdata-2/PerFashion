@@ -118,7 +118,7 @@
                 <span>패딩</span>
             </div>
         </div>
-    </form>
+
 
 
 <!-- 하의선택 문구상자 -->
@@ -127,7 +127,7 @@
             </div>
 
 <!-- 하의 선택 슬라이드 -->
-<form>
+
     <div class="choice1">
         <div>
             <input type="checkbox" name="bottom" id="short1" value="short" onclick="NoMultiChkBottom(this)">
@@ -170,7 +170,7 @@
             <span>패딩</span>
         </div>
     </div>
-</form>
+
 
 <!-- 이전, 다음 버튼 -->
         <br>
@@ -178,15 +178,14 @@
             <div id="choice-skip-box">
                 <span id ="choice-please"> 한가지 이상골라주세요</span>
             </div>
-            <div class="main-btn" onclick="location.href='html주소입력'">메인으로</div>
-            <div class="next-btn" onclick="Next(this)">다음 단계</div>
+            <div class="main-btn" onclick="location.href='index_3.jsp'">메인으로</div>
+            <div class="submit-div"><input type="submit" class="next-btn" onclick="Next(this)" value="다음 단계"></div>
 
         </div>
 
-
-    </center>
+</form>
+</center>
     
-
 
 
 <script>
@@ -226,12 +225,13 @@
 // 하나라도 체크되어야 다음페이지로 이동 메소드
     function Next(chk){
         var topLength = Number($("input:checkbox[name='top']:checked").length);
-        var bottomLength = Number($("input:checkbox[name=bottom]:checked").length);
+        var bottomLength = Number($("input:checkbox[name='bottom']:checked").length);
         if((topLength + bottomLength)>0){
             location.href='2_step_1.jsp';
-        }else{
-            $("#choice-please").show();
         }
+        /* else{
+            $("#choice-please").show();
+        } */
 
     }
 

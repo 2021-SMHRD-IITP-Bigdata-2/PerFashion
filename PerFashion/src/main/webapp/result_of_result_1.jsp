@@ -49,7 +49,7 @@
             </div>
         </div>
 
-<center>
+	<center>
 
     <form>
         <!-- 결과 표시 화면 -->
@@ -114,7 +114,29 @@
             <br>
             <br>
 
-            <input class ="send" type="submit" value="무슨 버튼을 넣을까~~">
+
+			<!-- SNS버튼 시작 -->
+			<regend>dd</regend> <!-- ????  -->
+			<div>공유하기</div>
+			<br>
+			<div style="width: 500px; text-align: center; margin-bottom: 64px;"> 
+				<!-- 페이스북 공유 버튼 --> 
+				<a href="" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600, height=600'); return false;">
+				<img src="img_1/sns/facebook.gif" title="페이스북으로 공유하기" class="sharebtn_custom" style="width: 32px;"></a> 
+				<!-- 트위터 공유 버튼 --> 
+				<a href="" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600, height=600'); return false;">
+				<img src="img_1/sns/tw.gif" title="트위터로 공유하기" class="sharebtn_custom" style="width: 32px;"></a> 
+				<!-- 카카오 스토리 공유 버튼 --> 
+				<a href="" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600, height=600'); return false;">
+				<img src="img_1/sns/caca.gif" title="카카오스토리로 공유하기" class="sharebtn_custom" style="width: 32px;"></a> 
+				<!-- 네이버 공유 버튼 --> 
+				<a href="" onclick="window.open(url_combine_naver, '', 'scrollbars=no, width=600, height=600'); return false;">
+				<img src="img_1/sns/naver.gif" title="네이버로 공유하기" class="sharebtn_custom" style="width: 32px;"></a> 
+				<!-- 밴드 공유 버튼 --> <a href="" onclick="window.open(url_combine_band, '', 'scrollbars=no, width=584, height=635'); return false;">
+				<img src="img_1/sns/band.gif" title="밴드로 공유하기" class="sharebtn_custom" style="width: 32px;"></a> 
+			</div> 
+			<!-- SNS버튼 끝 -->
+
 
         </div>
     </form>
@@ -132,6 +154,25 @@
         })
 
 </script>
+
+<!-- SNS 공유용 주소 연결 용 --> 
+        <script type="text/javascript" async> 
+        var url_default_ks = "https://story.kakao.com/share?url="; 
+        var url_default_fb = "https://www.facebook.com/sharer/sharer.php?u="; 
+        var url_default_tw_txt = "https://twitter.com/intent/tweet?text="; 
+        var url_default_tw_url = "&url="; 
+        var url_default_band = "http://band.us/plugin/share?body="; 
+        var url_route_band = "&route="; 
+        var url_default_naver = "http://share.naver.com/web/shareView.nhn?url="; 
+        var title_default_naver = "&title="; 
+        var url_this_page = location.href; 
+        var title_this_page = document.title; 
+        var url_combine_ks = url_default_ks + url_this_page; 
+        var url_combine_fb = url_default_fb + url_this_page; 
+        var url_combine_tw = url_default_tw_txt + document.title + url_default_tw_url + url_this_page; 
+        var url_combine_band = url_default_band + encodeURI(url_this_page)+ '%0A' + encodeURI(title_this_page)+'%0A' + '&route=tistory.com'; 
+        var url_combine_naver = url_default_naver + encodeURI(url_this_page) + title_default_naver + encodeURI(title_this_page); </script>
+
 
 
 </body>

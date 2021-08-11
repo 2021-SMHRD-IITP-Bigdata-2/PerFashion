@@ -27,10 +27,10 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="">LOGIN</a></li>
+                        <li><a href="loginpage_2.jsp">LOGIN</a></li>
                         <li><a href="about_3.jsp">ABOUT</a></li>
-                        <li><a href="">COMMUNITY</a></li>
-                        <li><a href="">MY PAGE</a></li>
+                        <li><a href="community_04.jsp">COMMUNITY</a></li>
+                        <li><a href="mypage_2.jsp">MY PAGE</a></li>
                     </ul>
                 </nav>
                 <!-- img src="images/아이콘추가가능" width="30px" height="30px" -->
@@ -76,7 +76,7 @@
                             <img class = "image" src="images_3/pic03.jpg">
                             <div href="#" class = "likeBtn">
                             <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-                            </div>
+                            </div>`
                         </div>
                         <div class="swiper-slide">
                             <img class = "image" src="images_3/pic04.jpg">

@@ -34,14 +34,14 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index.html"><img src="images_2/logo.png" width="125px"></a>
+                    <a href="index_3.jsp"><img src="images_3/logo3.png" width="125px"></a>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="">LOGIN</a></li>
-                        <li><a href="">ABOUT</a></li>
-                        <li><a href="">COMMUNITY</a></li>
-                        <li><a href="">MY PAGE</a></li>
+                        <li><a href="loginpage_2.jsp">LOGIN</a></li>
+                        <li><a href="about_3.jsp">ABOUT</a></li>
+                        <li><a href="community_4.jsp">COMMUNITY</a></li>
+                        <li><a href="mypage_2.jsp">MY PAGE</a></li>
                     </ul>
                 </nav>
                 <!-- img src="images/아이콘추가가능" width="30px" height="30px" -->
@@ -49,15 +49,24 @@
         </div>
     </div>
 
+        <div class="a" style="text-align: left;">
+            <div class=" thumb-wrapper" style="width: 100px; height: 100px; background-color: black;">
+            </div>
             
-            <div class="thumb-wrapper" style="width: 100px; height: 100px; background-color: black;"></div>
-                <div class="my">
-                    <p><a style="font-size: 40px; color: black;">닉네임</a></p>
-                    
-                    <a><button class="btn1" style="background-color: black; color: white;">내 게시글 관리</button></a>
-                    <a><button class="btn2" style="background-color: black; color: white;">개인정보 수정</button></a>
-                </div>
-            
+        </div>
+    
+        <div class="my">
+            <p style="font-size: 40px; color: black;">닉네임</p>
+        </div>
+
+        <div class="my2">
+            <div style="margin-left: 0px;" class="btn1">내 게시글 관리</div>
+            <div class="btn2">개인정보 수정</div>
+        </div>
+
+        <hr
+            style="margin-left:300px; width: 1250px; height: 5px; background-color: silver; color: silver;">
+        
         
             
                 
@@ -116,8 +125,7 @@
             <div class="categories">
                 <div class="small-container">
                     <div class="best">
-                        <div class = "best_item one">찜 목록</div>
-                        
+                        <div class = "best_item one">좋아요 목록</div>
                     </div>
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
@@ -164,7 +172,71 @@
                     
                 </div>  
             </div>  
-            
+        
+        <div class="footer">
+        <div class="container">
+            <div class="footer_row">
+                <div class="footer-col-1">
+                    <h3>Contact Us</h3>
+                        <ul>
+                            <li><span class="label"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</span></li>
+                            <li><span class="label"><i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</span></li>
+                            <li><span class="label"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</span></li>
+                        </ul>
+                        <p>광주광역시 남구 송하동<br />
+                        송암로 60 광주 CGI센터 2층 <br />
+                        (062)655-3509</p>
+                    </div>
+                
+                <div class="footer-col-2">
+                    <img src ="images_3/logo3.png">
+                    <p></p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>MY PAGE</h3>
+                    <ul>
+                        <li>프로필 수정</li>
+                        <li>찜 목록</li>
+                        <li>추천받은 목록</li>
+                        <li>게시글 관리</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>메인 페이지</h3>
+                    <ul>
+                        <li>코디 추천 받기</li>
+                        <li>찜 BEST</li>
+                        <li>좋아요 BEST</li>
+                        <li>COMMUNITY</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">2021 - PerFashion</p>
+        </div>
+    </div>
+        
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    slidesPerView: 3,
+                    direction: getDirection(),
+                    navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                on: {
+                    resize: function () {
+                        swiper.changeDirection(getDirection());
+                    },
+                    },
+                });
+        
+                function getDirection() {
+                    var windowWidth = window.innerWidth;
+                    var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+                    return direction;
+                }
+            </script>
         
 </body>
 </html>

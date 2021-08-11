@@ -22,14 +22,14 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index.html"><img src="images_2/logo.png" width="125px"></a>
+                    <a href="index_3.jsp"><img src="images_3/logo3.png" width="125px"></a>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="">LOGIN</a></li>
-                        <li><a href="">ABOUT</a></li>
-                        <li><a href="">COMMUNITY</a></li>
-                        <li><a href="">MY PAGE</a></li>
+                        <li><a href="loginpage_2.jsp">LOGIN</a></li>
+                        <li><a href="about_3.jsp">ABOUT</a></li>
+                        <li><a href="community_4.jsp">COMMUNITY</a></li>
+                        <li><a href="mypage_2.jsp">MY PAGE</a></li>
                     </ul>
                 </nav>
                 <!-- img src="images/아이콘추가가능" width="30px" height="30px" -->
@@ -55,5 +55,7 @@
             
         </form>
     </div>
+    
+    
 </body>
 </html>

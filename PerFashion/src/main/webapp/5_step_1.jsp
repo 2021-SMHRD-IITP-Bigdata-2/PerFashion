@@ -60,11 +60,13 @@
     </div>
 
         <div class = "step-guide">
-            <h1> 싫어하는 색을 골라주세요! </h1>
+            <h1> 좋아하는 색을 골라주세요! </h1>
             <h5> 이제 한단계 남았어요!</h5>
         </div>
 
-<form>
+
+<!-- 좋아하는 색 선택 옵션 -->
+<form action="6_step_1.jsp">
         <div class ="choice5">
 
                 <label><input type="checkbox" name="color" id="red" value="red">
@@ -116,7 +118,7 @@
 <!-- footer -->
     <div class="footer">
         <div class="container">
-            <div class="row">
+            <div class="footer_row">
                 <div class="footer-col-1">
                     <h3>Contact Us</h3>
                         <ul>

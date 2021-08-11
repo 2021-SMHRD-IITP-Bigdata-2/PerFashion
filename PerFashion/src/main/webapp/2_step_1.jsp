@@ -69,7 +69,7 @@
         </div>
 
 <!-- 헤어스타일 선택 슬라이드 -->
-    <form>
+    <form action="3_step_1.jsp">
         <div class="choice1">
             <div>
                 <input type="checkbox" name="hair" id="dandy" value="dandy" onclick="NoMultiChkHair(this)">
@@ -112,7 +112,7 @@
                 <span>아이비리그컷</span>
             </div>
         </div>
-    </form>
+
 <br>
 <br>
 <br>
@@ -139,7 +139,7 @@
 <!-- footer -->
     <div class="footer">
         <div class="container">
-            <div class="row">
+            <div class="footer_row">
                 <div class="footer-col-1">
                     <h3>Contact Us</h3>
                         <ul>

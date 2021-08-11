@@ -68,16 +68,16 @@
             </div>
         </div>
 
-<!-- 헤어스타일 선택 슬라이드 -->
-    <form>
+<!-- 분위기 선택 슬라이드 -->
+<form action="cody_result_1.jsp">
         <div style="width: 500px; margin-bottom: 10px;">
-            <label><input type='checkbox' name='style' value='전체선택' onclick='selectAll(this)'>
+            <label><input type='checkbox' name='mood' value='전체선택' onclick='selectAll(this)'>
                 <div id="selectall" style="width:80px; color: rgb(126, 126, 126);">전체선택</div>
             </label>
         </div>
 
         <div class="style-box">
-            <label><input type='checkbox' name='style' value='내추럴한'>
+            <label><input type='checkbox' name='mood' value='내추럴한'>
                 <div class="style-div" 
                     style="position: absolute; font-size: 60px; 
                     left: 141px; top: 75px; 
@@ -87,7 +87,7 @@
                     color: rgba(211, 7, 0, 0.5);">
                     내추럴한
                 </div></label>
-            <label><input type='checkbox' name='style' value='다이나믹한' >
+            <label><input type='checkbox' name='mood' value='다이나믹한' >
                 <div class="style-div" 
                     style="position: absolute; font-size: 40px; 
                     left: 10px; top: 30px; 
@@ -97,7 +97,7 @@
                     color: rgb(204, 163, 0);">
                     다이나믹한
                 </div></label>
-            <label><input type='checkbox' name='style' value='모던한' >
+            <label><input type='checkbox' name='mood' value='모던한' >
                 <div class="style-div"
                     style="position: absolute; font-size: 32px; 
                     left: 300px; top: 29px; 
@@ -106,7 +106,7 @@
                     color: rgb(238, 230, 0);">
                     모던한
                 </div></label>
-            <label><input type='checkbox' name='style' value='경쾌한' >
+            <label><input type='checkbox' name='mood' value='경쾌한' >
                 <div class="style-div" 
                     style="position: absolute; font-size: 35px; 
                     left: 400px; top: 10px; 
@@ -115,7 +115,7 @@
                     color: rgb(62, 135, 62);">
                     경쾌한
                 </div></label>
-            <label><input type='checkbox' name='style' value='은은한' >
+            <label><input type='checkbox' name='mood' value='은은한' >
                 <div class="style-div" 
                     style="position: absolute; font-size: 40px; 
                     left: 120px; top: 10px; 
@@ -124,7 +124,7 @@
                     color: rgb(193, 222, 255);">
                     은은한
                 </div></label>
-            <label><input type='checkbox' name='style' value='세련된'>
+            <label><input type='checkbox' name='mood' value='세련된'>
                 <div class="style-div" 
                     style="position: absolute; font-size: 38px; 
                     left: 250.876px; top: 170px;
@@ -133,7 +133,7 @@
                     color: rgb(194, 168, 201);">
                     세련된
                 </div></label>
-            <label><input type='checkbox' name='style' value='화려한' >
+            <label><input type='checkbox' name='mood' value='화려한' >
                 <div class="style-div" 
                     style="position: absolute; font-size: 43px; 
                     left: 400px; top: 130px; 
@@ -142,7 +142,7 @@
                     color: rgb(102, 151, 239);">
                     화려한
                 </div></label>
-            <label><input type='checkbox' name='style' value='클래식한'>
+            <label><input type='checkbox' name='mood' value='클래식한'>
                 <div class="style-div" 
                     style="position: absolute; font-size: 45px; 
                     left: 80px; top: 170px; 
@@ -178,7 +178,7 @@
 <!-- footer -->
     <div class="footer">
         <div class="container">
-            <div class="row">
+            <div class="footer_row">
                 <div class="footer-col-1">
                     <h3>Contact Us</h3>
                         <ul>
@@ -262,7 +262,7 @@
         }
 
         function Next(chk){
-            var styleLength = Number($("input:checkbox[name='style']:checked").length);
+            var styleLength = Number($("input:checkbox[name='mood']:checked").length);
             if(styleLength >0){
                 location.href='loading.html';
             }else{
@@ -271,7 +271,7 @@
         }
 
         function selectAll(selectAll) {
-            const checkboxes = document.getElementsByName('style');
+            const checkboxes = document.getElementsByName('mood');
             checkboxes.forEach((checkbox) => {
                 checkbox.checked = selectAll.checked;
             })

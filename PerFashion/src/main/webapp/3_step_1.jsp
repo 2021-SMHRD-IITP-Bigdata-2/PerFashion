@@ -72,7 +72,7 @@
         </div>
 
 <!-- 헤어스타일 선택 슬라이드 -->
-<form>
+<form action="4_step_1.jsp">
     <div class="choice1">
         <div>
             <input type="checkbox" name="place" id="wedding" value="wedding" onclick="NoMultiChkPlace(this)">
@@ -136,7 +136,7 @@
 <!-- footer -->
     <div class="footer">
         <div class="container">
-            <div class="row">
+            <div class="footer_row">
                 <div class="footer-col-1">
                     <h3>Contact Us</h3>
                         <ul>

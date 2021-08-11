@@ -12,6 +12,11 @@
 		<link rel="stylesheet" href="css_04_post/style_h.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css_3/style_3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
       <div class="header">
@@ -41,7 +46,7 @@
                 <div class="border-dee3eb">
                     <div class="image_id">
                     <div class="profile-user-img">
-                        <image src="images_04_post/medium/cody2.jpg" class="profile-user-img-img">
+                        <image src="images_04_post/medium/cody1.jpg" class="profile-user-img-img">
                     </div>
                     <div class="user_id">young_suk</div>
                     </div>

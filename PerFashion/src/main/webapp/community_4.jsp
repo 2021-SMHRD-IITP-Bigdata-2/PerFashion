@@ -63,139 +63,139 @@
                     </div>
             </div>
 			<div class="grid">
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody1.jpg class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody2.jpg class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody3.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody4.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody5.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody6.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody7.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody8.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>	
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody9.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>	
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody10.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>	
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody11.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>	
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody12.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>	
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody13.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody14.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>		
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody15.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>	
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody16.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>	
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody17.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>	
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody18.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>	
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody19.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>	
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody20.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>	
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody21.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>	
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody22.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						
 					</div>
 				</div>	
-				<div onclick="javascript:location.href='../insta/comment.html';" class="item">
+				<div onclick="javascript:location.href='post_4.jsp';" class="item">
 					<img src=images_04_community/medium/cody23.PNG class="image">
 					<div class="overlay">
 						<p class="text">아이디<br>❤좋아요수</p>						

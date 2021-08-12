@@ -28,9 +28,10 @@
 </head>
 
 <body>
+    <center>
 
-        <!-- 메뉴바 -->
-            <div class="header">
+    <!-- 메뉴바 -->
+    <div class="header">
         <div class="container">
             <div class="navbar">
                 <div class="logo">
@@ -49,8 +50,6 @@
         </div>
     </div>
 
-<center>
-
     <form action="per_option_1.jsp">
         <!-- 결과 표시 화면 -->
         <div class="result-detail">
@@ -59,121 +58,117 @@
                 <span class="nickname"> NICKNAME </span>
                 <span> 님이 선택한 코디!</span>
             </div>
-
             <br>
 
             <table width="900">
                 <tr>
-                    <td rowspan="2" align="right" width="500">
-                        <div>
-                            <img width="500" src="img_1/test_image.jpg">
-                            <!-- <span class="like-btn xi-heart"></span> -->
+                    <td rowspan="2" align="right">
+                        <img width="500" src="img_1/test_image.jpg">
+                        <div class="detail-like-btn">
                             <label>
-                                <div class="detail-like-btn"><input type="checkbox" value="서버에서 가져온 값.코딩하기"><i class="fa fa-heart fa-2"></i></div>
+                                <input type="checkbox" value="">
+                                <i class="xi-heart-o"></i>
                             </label>
                         </div>
                     </td>
                     <td rowspan="2" width="20">
                     </td>
-                    <td class="line" > 
-                        <div class="detail-ex">
-                            <p>스트라이프 패턴의 반팔 티셔츠와 와이드 핏 데님팬트를 코디하고 나일론 소재의 슬링 백을 더해 마무리한 캐주얼룩</p>
-                        </div>
+                    <td class="line">
+                        <p>이 패션은?</p>
+                        <p>스트라이프 패턴의 반팔 티셔츠와 와이드 핏 데님팬트를 코디하고 나일론 소재의 슬링 백을 더해 마무리한 캐주얼룩</p>
                     </td>
                 </tr>
                 <tr align="center">
                     <td>
-                        <div>
-                            <div class="result-item">
-                                <a href="#">
-                                    <img src="img_1/top/long-sleeve.png"><br>
-                                    <span>블랙 스트라이프 오버 반팔티</span>
-                                </a>
-                            </div>
-                            <div class="result-item">
-                                <a href="#">
-                                    <img src="img_1/top/long-sleeve.png"><br>
-                                    <span>블랙 스트라이프 오버 반팔티</span>
-                                </a>
-                            </div>
+                        <div class="result-item">
+                            <a href="#">
+                                <img src="img_1/top/long-sleeve.png"><br>
+                                <span>블랙 스트라이프 오버 반팔티</span>
+                            </a>
+                        </div>
+                        <div class="result-item">
+                            <a href="#">
+                                <img src="img_1/top/long-sleeve.png"><br>
+                                <span>블랙 스트라이프 오버 반팔티</span>
+                            </a>
                         </div>
                     </td>
                 </tr>
             </table>
 
-            <br>
-            <br>
-            <br>
-
-            <input class ="send" type="submit" value="향수 추천 받기">
+            <input class="send" type="submit" value="향수 추천 받기">
 
         </div>
     </form>
 </center>
 
-<br><br><br><br>
 
-<!-- footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="footer_row">
-                <div class="footer-col-1">
-                    <h3>Contact Us</h3>
+
+
+<br>
+<br>
+
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="footer_row">
+                    <div class="footer-col-1">
+                        <h3>Contact Us</h3>
                         <ul>
                             <li><span class="label"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</span></li>
-                            <li><span class="label"><i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</span></li>
-                            <li><span class="label"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</span></li>
+                            <li><span class="label"><i class="fa fa-facebook-official"
+                                        aria-hidden="true"></i>Facebook</span></li>
+                            <li><span class="label"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</span>
+                            </li>
                         </ul>
                         <p>광주광역시 남구 송하동<br />
-                        송암로 60 광주 CGI센터 2층 <br />
-                        (062)655-3509</p>
+                            송암로 60 광주 CGI센터 2층 <br />
+                            (062)655-3509</p>
                     </div>
-                
-                <div class="footer-col-2">
-                    <img src ="images_3/logo3.png">
-                    <p></p>
+
+                    <div class="footer-col-2">
+                        <img src="images_3/logo3.png">
+                        <p></p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>MY PAGE</h3>
+                        <ul>
+                            <li>프로필 수정</li>
+                            <li>찜 목록</li>
+                            <li>추천받은 목록</li>
+                            <li>게시글 관리</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>메인 페이지</h3>
+                        <ul>
+                            <li>코디 추천 받기</li>
+                            <li>찜 BEST</li>
+                            <li>좋아요 BEST</li>
+                            <li>COMMUNITY</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="footer-col-3">
-                    <h3>MY PAGE</h3>
-                    <ul>
-                        <li>프로필 수정</li>
-                        <li>찜 목록</li>
-                        <li>추천받은 목록</li>
-                        <li>게시글 관리</li>
-                    </ul>
-                </div>
-                <div class="footer-col-4">
-                    <h3>메인 페이지</h3>
-                    <ul>
-                        <li>코디 추천 받기</li>
-                        <li>찜 BEST</li>
-                        <li>좋아요 BEST</li>
-                        <li>COMMUNITY</li>
-                    </ul>
-                </div>
+                <hr>
+                <p class="copyright">2021 - PerFashion</p>
             </div>
-            <hr>
-            <p class="copyright">2021 - PerFashion</p>
         </div>
-    </div>
 
 
-
-
-
-
-<script>
-
-    $('input[type="checkbox"]').on('change',function(){
-            if($(this).is(':checked')) {
-                $("input[type='checkbox']:checked+i").css('color','red');
-            }else{
-                $("input[type='checkbox']+i").css('color','white');
-            }
-        })
-
-</script>
+        <script>
+            $('input[type="checkbox"]').on('change', function () {
+                if ($(this).is(':checked')) {
+                    $("input[type='checkbox']:checked+i").attr('class', 'xi-heart'),
+                        $("input[type='checkbox']:checked+i").css('color', 'red');
+                } else {
+                    $(this).next().attr('class', 'xi-heart-o'),
+                        $("input[type='checkbox']:checked+i").css('color', 'red');
+                }
+            })
+        </script>
 
 
 </body>
-</html></html>
+
+</html>

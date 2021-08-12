@@ -91,31 +91,32 @@
         </div>
         <div>
             <input type="checkbox" name="place" id="daily" value="daily" onclick="NoMultiChkPlace(this)">
-            <label for="daily" class="one-label"><img src="img_1/place/wedding.png" alt="데일리"></label>
+            <label for="daily" class="one-label"><img src="img_1/place/daily2.png" alt="데일리"></label>
             <span>데일리</span>
         </div>
         <div>
             <input type="checkbox" name="place" id="sport" value="sport" onclick="NoMultiChkPlace(this)">
-            <label for="sport" class="one-label"><img src="img_1/place/wedding.png" alt="운동"></label>
+            <label for="sport" class="one-label"><img src="img_1/place/sport.png" alt="운동"></label>
             <span>운동</span>
         </div>
         <div>
             <input type="checkbox" name="place" id="campus" value="campus" onclick="NoMultiChkPlace(this)">
-            <label for="campus" class="one-label"><img src="img_1/place/wedding.png" alt="캠퍼스"></label>
+            <label for="campus" class="one-label"><img src="img_1/place/campus.png" alt="캠퍼스"></label>
             <span>캠퍼스</span>
         </div>
         <div>
             <input type="checkbox" name="place" id="meeting" value="meeting" onclick="NoMultiChkPlace(this)">
-            <label for="meeting" class="one-label"><img src="img_1/place/wedding.png" alt="미팅"></label>
+            <label for="meeting" class="one-label"><img src="img_1/place/meeting.png" alt="미팅"></label>
             <span>미팅</span>
         </div>
         <div>
             <input type="checkbox" name="place" id="travel" value="travel" onclick="NoMultiChkPlace(this)">
-            <label for="travel" class="one-label"><img src="img_1/place/wedding.png" alt="여행"></label>
+            <label for="travel" class="one-label"><img src="img_1/place/travel.png" alt="여행"></label>
             <span>여행</span>
         </div>
     </div>
-<br>
+<br><br>
+
 
 <!-- 이전, 다음 버튼 -->
 <div class="pre-next-div">

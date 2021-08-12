@@ -63,44 +63,44 @@
 <form action="per_result_1.jsp">
     <div class="choice1">
         <div>
-            <input type="checkbox" name="perfume" id="wedding" value="wedding" onclick="NoMultiChkPlace(this)">
-            <label for="wedding" class="one-label"><img src="img_1/place/wedding.png" alt="결혼식장"></label>
-            <span>결혼식장</span>
+            <input type="checkbox" name="perfume" id="citrus" value="citrus" onclick="NoMultiChkPlace(this)">
+            <label for="citrus" class="one-label"><img src="img_1/perfume/citrus.png" alt="시트러스"></label>
+            <span>시트러스</span>
         </div>
         <div>
-            <input type="checkbox" name="perfume" id="picnic" value="picnic" onclick="NoMultiChkPlace(this)">
-            <label for="picnic" class="one-label"><img src="img_1/place/picnic.png" alt="피크닉"></label>
-            <span>피크닉</span>
+            <input type="checkbox" name="perfume" id="flower" value="flower" onclick="NoMultiChkPlace(this)">
+            <label for="flower" class="one-label"><img src="img_1/perfume/flower.png" alt="플로럴"></label>
+            <span>플로럴</span>
         </div>
         <div>
-            <input type="checkbox" name="perfume" id="club" value="club" onclick="NoMultiChkPlace(this)">
-            <label for="club" class="one-label"><img src="img_1/place/club6.png" alt="클럽"></label>
-            <span>클럽</span>
+            <input type="checkbox" name="perfume" id="oriental" value="oriental" onclick="NoMultiChkPlace(this)">
+            <label for="oriental" class="one-label"><img src="img_1/perfume/oriental.png" alt="오리엔탈"></label>
+            <span>오리엔탈</span>
         </div>
         <div>
-            <input type="checkbox" name="perfume" id="daily" value="daily" onclick="NoMultiChkPlace(this)">
-            <label for="daily" class="one-label"><img src="img_1/place/wedding.png" alt="데일리"></label>
-            <span>데일리</span>
+            <input type="checkbox" name="perfume" id="water" value="water" onclick="NoMultiChkPlace(this)">
+            <label for="water" class="one-label"><img src="img_1/perfume/water.png" alt="워터"></label>
+            <span>워터</span>
         </div>
         <div>
-            <input type="checkbox" name="perfume" id="sport" value="sport" onclick="NoMultiChkPlace(this)">
-            <label for="sport" class="one-label"><img src="img_1/place/wedding.png" alt="운동"></label>
-            <span>운동</span>
+            <input type="checkbox" name="perfume" id="green" value="green" onclick="NoMultiChkPlace(this)">
+            <label for="green" class="one-label"><img src="img_1/perfume/green.png" alt="그린"></label>
+            <span>그린</span>
         </div>
         <div>
-            <input type="checkbox" name="perfume" id="campus" value="campus" onclick="NoMultiChkPlace(this)">
-            <label for="campus" class="one-label"><img src="img_1/place/wedding.png" alt="캠퍼스"></label>
-            <span>캠퍼스</span>
+            <input type="checkbox" name="perfume" id="wood" value="wood" onclick="NoMultiChkPlace(this)">
+            <label for="wood" class="one-label"><img src="img_1/perfume/wood.png" alt="우드"></label>
+            <span>우드</span>
         </div>
         <div>
-            <input type="checkbox" name="perfume" id="meeting" value="meeting" onclick="NoMultiChkPlace(this)">
-            <label for="meeting" class="one-label"><img src="img_1/place/wedding.png" alt="미팅"></label>
-            <span>미팅</span>
+            <input type="checkbox" name="perfume" id="aromatic" value="aromatic" onclick="NoMultiChkPlace(this)">
+            <label for="aromatic" class="one-label"><img src="img_1/perfume/aromatic.png" alt="아로마틱"></label>
+            <span>아로마틱</span>
         </div>
         <div>
-            <input type="checkbox" name="perfume" id="travel" value="travel" onclick="NoMultiChkPlace(this)">
-            <label for="travel" class="one-label"><img src="img_1/place/wedding.png" alt="여행"></label>
-            <span>여행</span>
+            <input type="checkbox" name="perfume" id="fruity" value="fruity" onclick="NoMultiChkPlace(this)">
+            <label for="fruity" class="one-label"><img src="img_1/perfume/fruits3.png" alt="프루티"></label>
+            <span>프루티</span>
         </div>
     </div>
 

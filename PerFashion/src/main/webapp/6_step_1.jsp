@@ -89,8 +89,8 @@
                 </div></label>
             <label><input type='checkbox' name='mood' value='다이나믹한' >
                 <div class="style-div" 
-                    style="position: absolute; font-size: 40px; 
-                    left: 10px; top: 30px; 
+                    style="position: absolute; font-size: 30px; 
+                    left: 0px; top: 10px; 
                     width: 60px;
                     padding-left: 10px;
                     padding-right: 10px;
@@ -100,7 +100,7 @@
             <label><input type='checkbox' name='mood' value='모던한' >
                 <div class="style-div"
                     style="position: absolute; font-size: 32px; 
-                    left: 300px; top: 29px; 
+                    left: 250px; top: 20px; 
                     padding-left: 5px;
                     padding-right: 5px;
                     color: rgb(238, 230, 0);">
@@ -109,7 +109,7 @@
             <label><input type='checkbox' name='mood' value='경쾌한' >
                 <div class="style-div" 
                     style="position: absolute; font-size: 35px; 
-                    left: 400px; top: 10px; 
+                    left: 380px; top: 10px; 
                     padding-left: 10px;
                     padding-right: 10px;
                     color: rgb(62, 135, 62);">
@@ -118,7 +118,7 @@
             <label><input type='checkbox' name='mood' value='은은한' >
                 <div class="style-div" 
                     style="position: absolute; font-size: 40px; 
-                    left: 120px; top: 10px; 
+                    left: 100px; top: 5px; 
                     padding-left: 10px;
                     padding-right: 10px;
                     color: rgb(193, 222, 255);">
@@ -135,7 +135,7 @@
                 </div></label>
             <label><input type='checkbox' name='mood' value='화려한' >
                 <div class="style-div" 
-                    style="position: absolute; font-size: 43px; 
+                    style="position: absolute; font-size: 38px; 
                     left: 400px; top: 130px; 
                     padding-left: 10px;
                     padding-right: 10px;
@@ -145,7 +145,7 @@
             <label><input type='checkbox' name='mood' value='클래식한'>
                 <div class="style-div" 
                     style="position: absolute; font-size: 45px; 
-                    left: 80px; top: 170px; 
+                    left: 65px; top: 170px; 
                     padding-left: 10px;
                     padding-right: 10px;
                     color: rgba(106, 106, 106, 0.734);">

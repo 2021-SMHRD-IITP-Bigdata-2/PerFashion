@@ -29,25 +29,28 @@
 
 <body>
 
-        <!-- 메뉴바 -->
-            <div class="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <a href="index_3.jsp"><img src="images_3/logo3.png" width="125px"></a>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="loginpage_2.jsp">LOGIN</a></li>
-                        <li><a href="about_3.jsp">ABOUT</a></li>
-                        <li><a href="community_04.jsp">COMMUNITY</a></li>
-                        <li><a href="mypage_2.jsp">MY PAGE</a></li>
-                    </ul>
-                </nav>
-            </div>
+<!-- 메뉴바 -->
+	<div class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<a href="index_3.jsp"><img src="images_3/logo3.png"
+						width="125px"></a>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="loginpage_2.jsp">LOGIN</a></li>
+						<li><a href="about_3.jsp">ABOUT</a></li>
+						<li><a href="community_04.jsp">COMMUNITY</a></li>
+						<li><a href="mypage_2.jsp">MY PAGE</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
 
-        </div>
-    </div>
+
+
 
 	<center>
 
@@ -61,61 +64,45 @@
             </div>
 
             <br>
+            <br>
+            
 
-            <table width="900">
+            <table width="1000">
                 <tr>
                     <td align="center">
                         <div>
                             <img width="500px" src="img_1/test_image.jpg">
                             <!-- <span class="like-btn xi-heart"></span> -->
-                            <label>
-                                <div class="detail-like-btn">
-                                    <input type="checkbox" value="서버에서 가져온 값.코딩하기">
-                                    <i class="fa fa-heart fa-2"></i>
-                                </div>
-                            </label>
                         </div>
                     </td>
                     <td>
-                        <i class="xi-plus" style=" font-size: 80px; color: darkgray;"></i>
+                        
                     </td>
-                    <td align="center">
+                    <td class="line-all" align="center">
                         <div>
-                            <img width="400px" src="img_1/perfume/botanik.jpg">
-                            <!-- <span class="like-btn xi-heart"></span> -->
-                            <label>
-                                <div class="detail-like-btn">
-                                    <input type="checkbox" value="서버에서 가져온 값.코딩하기">
-                                    <i class="fa fa-heart fa-2"></i>
-                                </div>
-                            </label>
+                            <img sytle width="500px" src="img_1/perfume/botanik.jpg">
                         </div>
                     </td>
                 </tr>
                 <tr>
-                    <td> 
-                        <div class="per-detail-ex">
-                            <p>스트라이프 패턴의 반팔 티셔츠와 와이드 핏 데님팬트를 코디하고 나일론 소재의 슬링 백을 더해 마무리한 캐주얼룩</p>
-                        </div>
+                    <td class="result-of-line" style="height: 300px;">
+                        <p class="line-title-p">이 패션은?</p>
+                        <p class="line-p">스트라이프 패턴의 반팔 티셔츠와 와이드 핏 데님팬트를 코디하고 나일론 소재의 슬링 백을 더해 마무리한 캐주얼룩</p>
                     </td>
                     <td></td>
-                    <td> 
-                        <div class="per-detail-ex">
-                            <p>향수이름</p><br>
-                            <p>스트라이프 패턴의 반팔 티셔츠와 와이드 핏 데님팬트를 코디하고 나일론 소재의 슬링 백을 더해 마무리한 캐주얼룩</p>
-                        </div>
+                    <td class="result-of-line" style="height: 300px;">
+                       <p class="line-title-p">이 향수는?</p>
+                       <p class="line-p">스트라이프 패턴의 반팔 티셔츠와 와이드 핏 데님팬트를 코디하고 나일론 소재의 슬링 백을 더해 마무리한 캐주얼룩</p>
                     </td>
                 </tr>
 
             </table>
+</form>
 
-
-            <br>
-            <br>
             <br>
 
 
-			<!-- SNS버튼 시작 -->
+<!-- SNS버튼 시작 -->
 	 <fieldset class="result-sns-fieldset">
         <legend>  공유하기</legend>
 		<br>
@@ -139,7 +126,6 @@
 	</fieldset>
 
         </div>
-    </form>
 
 </center>
 

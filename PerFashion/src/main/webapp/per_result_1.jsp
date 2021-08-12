@@ -29,8 +29,9 @@
 
 <body>
 
-        <!-- 메뉴바 -->
-            <div class="header">
+    
+    <!-- 메뉴바 -->
+        <div class="header">
         <div class="container">
             <div class="navbar">
                 <div class="logo">
@@ -51,7 +52,7 @@
 
 <center>
 
-<form action="result_of_result_1.jsp">
+    <form action="result_of_result_1.jsp">
         <!-- 결과 표시 화면 -->
         <div class="result-detail">
 
@@ -64,7 +65,7 @@
 
             <table width="900">
                 <tr>
-                    <td rowspan="3" align="right" width="500">
+                    <td rowspan="3" width="500">
                         <div>
                             <img width="500" src="img_1/perfume/botanik.jpg">
                             <!-- <span class="like-btn xi-heart"></span> -->
@@ -78,24 +79,18 @@
                     </td>
                     <td rowspan="3" width="20">
                     </td>
-                    <td class="line" > 
-                        <div class="per-detail-ex">
-                            <p>스트라이프 패턴의 반팔 티셔츠와 와이드 핏 데님팬트를 코디하고 나일론 소재의 슬링 백을 더해 마무리한 캐주얼룩</p>
-                        </div>
+                    <td class="per-line" > 
+                        <p>스트라이프 패턴의 반팔 티셔츠와 와이드 핏 데님팬트를 코디하고 나일론 소재의 슬링 백을 더해 마무리한 캐주얼룩</p>
                     </td>
                 </tr>
                 <tr>
-                    <td class="line" > 
-                        <div class="per-detail-ex">
-                            <p>스트라이프 패턴의 반팔 티셔츠와 와이드 핏 데님팬트를 백을 더해 마무리한 캐주얼룩</p>
-                        </div>
+                    <td class="per-line" > 
+                        <p>스트라이프 패턴의 반팔 티셔츠와 와이드 핏 데님팬트를 백을 더해 마무리한 캐주얼룩</p>
                     </td>
                 </tr>
                 <tr>
-                    <td class="line" > 
-                        <div class="per-detail-ex">
-                            <p>스트라이프 패턴의 반팔 티셔츠와 캐주얼룩</p>
-                        </div>
+                    <td class="per-line" > 
+                        <p>스트라이프 패턴의 반팔 티셔츠와 캐주얼룩</p>
                     </td>
                 </tr>
             </table>
@@ -109,55 +104,8 @@
 
         </div>
     </form>
+
 </center>
-
-
-<br><br><br><br><br><br><br><br><br>
-    
-<!-- footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="footer_row">
-                <div class="footer-col-1">
-                    <h3>Contact Us</h3>
-                        <ul>
-                            <li><span class="label"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</span></li>
-                            <li><span class="label"><i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</span></li>
-                            <li><span class="label"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</span></li>
-                        </ul>
-                        <p>광주광역시 남구 송하동<br />
-                        송암로 60 광주 CGI센터 2층 <br />
-                        (062)655-3509</p>
-                    </div>
-                
-                <div class="footer-col-2">
-                    <img src ="images_3/logo3.png">
-                    <p></p>
-                </div>
-                <div class="footer-col-3">
-                    <h3>MY PAGE</h3>
-                    <ul>
-                        <li>프로필 수정</li>
-                        <li>찜 목록</li>
-                        <li>추천받은 목록</li>
-                        <li>게시글 관리</li>
-                    </ul>
-                </div>
-                <div class="footer-col-4">
-                    <h3>메인 페이지</h3>
-                    <ul>
-                        <li>코디 추천 받기</li>
-                        <li>찜 BEST</li>
-                        <li>좋아요 BEST</li>
-                        <li>COMMUNITY</li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-            <p class="copyright">2021 - PerFashion</p>
-        </div>
-    </div>
-
 
 <script>
 

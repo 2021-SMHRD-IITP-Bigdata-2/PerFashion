@@ -68,6 +68,7 @@
             </div>
         </div>
 
+
 <!-- Çì¾î½ºÅ¸ÀÏ ¼±ÅÃ ½½¶óÀÌµå -->
     <form action="3_step_1.jsp">
         <div class="choice1">
@@ -78,41 +79,44 @@
             </div>
             <div>
                 <input type="checkbox" name="hair" id="regent" value="regent" onclick="NoMultiChkHair(this)">
-                <label for="regent" class="two-label"><img src="img_1/hair/dandy2.png" alt="¸®Á¨Æ®ÄÆ"></label>
+                <label for="regent" class="two-label"><img src="img_1/hair/regent.png" alt="¸®Á¨Æ®ÄÆ"></label>
                 <span>¸®Á¨Æ®ÄÆ</span>
             </div>
             <div>
-                <input type="checkbox" name="hair" id="twoblock" value="twoblock" onclick="NoMultiChkHair(this)">
-                <label for="twoblock" class="two-label"><img src="img_1/hair/dandy2.png" alt="Åõºí·°"></label>
-                <span>Åõºí·°</span>
+                <input type="checkbox" name="hair" id="crop" value="crop" onclick="NoMultiChkHair(this)">
+                <label for="crop" class="two-label"><img src="img_1/hair/softcrop.png" alt="¼ÒÇÁÆ®Å©·ÓÄÆ"></label>
+                <span>¼ÒÇÁÆ®Å©·ÓÄÆ</span>
+            </div>
+            <div>
+                <input type="checkbox" name="hair" id="swimpyo" value="swimpyo" onclick="NoMultiChkHair(this)">
+                <label for="swimpyo" class="two-label"><img src="img_1/hair/swimpyo.png" alt="½°Ç¥ÄÆ"></label>
+                <span>½°Ç¥ÄÆ</span>
+            </div>
+            <div>
+                <input type="checkbox" name="hair" id="baby" value="baby" onclick="NoMultiChkHair(this)">
+                <label for="baby" class="two-label"><img src="img_1/hair/baby.png" alt="º£ÀÌºñÆß"></label>
+                <span>º£ÀÌºñÆß</span>
             </div>
             <div>
                 <input type="checkbox" name="hair" id="karma" value="karma" onclick="NoMultiChkHair(this)">
-                <label for="karma" class="two-label"><img src="img_1/hair/dandy2.png" alt="°¡¸£¸¶Æß"></label>
+                <label for="karma" class="two-label"><img src="img_1/hair/karma.png" alt="°¡¸£¸¶Æß"></label>
                 <span>°¡¸£¸¶Æß</span>
             </div>
             <div>
                 <input type="checkbox" name="hair" id="pomade" value="pomade" onclick="NoMultiChkHair(this)">
-                <label for="pomade" class="two-label"><img src="img_1/hair/dandy2.png" alt="Æ÷¸¶µå"></label>
-                <span>Æ÷¸¶µå</span>
+                <label for="pomade" class="two-label"><img src="img_1/hair/pomade.png" alt="Æ÷¸¶µåÆß"></label>
+                <span>Æ÷¸¶µåÆß</span>
             </div>
             <div>
                 <input type="checkbox" name="hair" id="asperm" value="asperm" onclick="NoMultiChkHair(this)">
-                <label for="asperm" class="two-label"><img src="img_1/hair/dandy2.png" alt="¾ÖÁîÆß"></label>
+                <label for="asperm" class="two-label"><img src="img_1/hair/as.png" alt="¾ÖÁîÆß"></label>
                 <span>¾ÖÁîÆß</span>
             </div>
-            <div>
-                <input type="checkbox" name="hair" id="crop" value="crop" onclick="NoMultiChkHair(this)">
-                <label for="crop" class="two-label"><img src="img_1/hair/dandy2.png" alt="Å©·ÓÄÆ"></label>
-                <span>Å©·ÓÄÆ</span>
-            </div>
-            <div>
-                <input type="checkbox" name="hair" id="ivylg" value="ivylg" onclick="NoMultiChkHair(this)">
-                <label for="ivylg" class="two-label"><img src="img_1/hair/dandy2.png" alt="¾ÆÀÌºñ¸®±×ÄÆ"></label>
-                <span>¾ÆÀÌºñ¸®±×ÄÆ</span>
-            </div>
+
         </div>
 
+<br>
+<br>
 <br>
 <br>
 <br>

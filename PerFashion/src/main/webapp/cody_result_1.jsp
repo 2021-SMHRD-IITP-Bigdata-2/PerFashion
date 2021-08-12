@@ -61,47 +61,38 @@
 <br>
 <br>
 
-	<div class="form-inline">
-		<form action="cody_result_detail_1.jsp">
-		    <div class="result-div">
-		        <div class="result-tri"></div>
-		        <div class="result-number">01</div>
-	       		<input class="result-image" type='image' src="img_1/place/club.png" align=top border=0 alt='Click!'>
-		    </div>
-	    </form>
-	</div>
-	
-	<div class="form-inline">
-		<form action="cody_result_detail_1.jsp">
-		    <div class="result-div">
-		        <div class="result-tri"></div>
-		        <div class="result-number">02</div>
-		        <input class="result-image" type='image' src="img_1/top/leather-jacket2.png" align=top border=0 alt='Click!'>
-		    </div>
-	    </form>
-	</div>
-	
-	<div class="form-inline">
-    	<form action="cody_result_detail_1.jsp">
-		    <div class="result-div">
-		        <div class="result-tri"></div>
-		        <div class="result-number">03</div>
-		        <input class="result-image" type='image' src="img_1/hair/dandy2.png" align=top border=0 alt='Click!'>
-		    </div>
-		</form>
-	</div>
+	<form action="cody_result_detail_1.jsp" class="form-align">
+        <div class="result-tri"></div>
+        <div class="result-number" name="result-one">01</div>
+        <input class="result-image" type='image' src="img_1/place/club.png" align=top border=0 alt='Click!'>
+    </form>
+    
+    <form action="cody_result_detail_1.jsp" class="form-align">
+            <div class="result-tri"></div>
+            <div class="result-number" name="result-one">01</div>
+            <input class="result-image" type='image' src="img_1/place/club.png" align=top border=0 alt='Click!'>
+    </form>
+
+    <form action="cody_result_detail_1.jsp" class="form-align">
+        <div class="result-tri"></div>
+        <div class="result-number" name="result-one">01</div>
+        <input class="result-image" type='image' src="img_1/place/club.png" align=top border=0 alt='Click!'>
+    </form>
 
     <!-- 이전, 다음 버튼 -->
     <br>
     <br>
     <br>
+    <br>
+    
+    <form>
         <a class ="cody-reset" href="1_step_1.jsp"><u>다시 선택하기</u></a>
         <input class="send" type="submit" value= "다른 코디 추천 받기"> 
-</form>
+	</form>
 
 </center>
 
-<br><br><br><br><br><br><br><br><br>
+<br><br><br>
     
 <!-- footer -->
     <div class="footer">

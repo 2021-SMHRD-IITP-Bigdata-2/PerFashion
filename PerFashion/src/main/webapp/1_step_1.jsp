@@ -60,12 +60,10 @@
     </div>
 
 
-    <!-- 옵션 선택 -->
-
-        <div class="step-guide">
-                <h2> 상하의를 선택해주세요! </h2>
-        </div>
-    
+<!-- 옵션 선택 -->
+     <div class="step-guide">
+             <h2> 상하의를 선택해주세요! </h2>
+     </div>
 
 
     <div class="category">
@@ -130,44 +128,44 @@
 
     <div class="choice1">
         <div>
-            <input type="checkbox" name="bottom" id="short1" value="short" onclick="NoMultiChkBottom(this)">
-            <label for="short1" class="one-label"><img src="img_1/bottom/short2.png" alt="반팔"></label>
-            <span>반팔</span>
+            <input type="checkbox" name="bottom" id="jeans" value="jeans" onclick="NoMultiChkBottom(this)">
+            <label for="jeans" class="one-label"><img src="img_1/bottom/jeans.png" alt="청바지"></label>
+            <span>청바지</span>
         </div>
         <div>
-            <input type="checkbox" name="bottom" id="long1" value="long" onclick="NoMultiChkBottom(this)">
-            <label for="long1" class="one-label"><img src="img_1/bottom/long-sleeve2.png" alt="긴팔"></label>
-            <span>긴팔</span>
+            <input type="checkbox" name="bottom" id="trousers" value="trousers" onclick="NoMultiChkBottom(this)">
+            <label for="trousers" class="one-label"><img src="img_1/bottom/trousers.png" alt="슬렉스"></label>
+            <span>슬렉스</span>
         </div>
         <div>
-            <input type="checkbox" name="bottom" id="shirts1" value="shirts" onclick="NoMultiChkBottom(this)">
-            <label for="shirts1" class="one-label"><img src="img_1/bottom/shirts2.png" alt="셔츠"></label>
-            <span>셔츠</span>
+            <input type="checkbox" name="bottom" id="cotton" value="cotton" onclick="NoMultiChkBottom(this)">
+            <label for="cotton" class="one-label"><img src="img_1/bottom/cotton.png" alt="면바지"></label>
+            <span>면바지</span>
         </div>
         <div>
-            <input type="checkbox" name="bottom" id="hood1" value="hood" onclick="NoMultiChkBottom(this)">
-            <label for="hood1" class="one-label"><img src="img_1/bottom/hoodie.png" alt="후드"></label>
-            <span>후드</span>
+            <input type="checkbox" name="bottom" id="short-p" value="short-p" onclick="NoMultiChkBottom(this)">
+            <label for="short-p" class="one-label"><img src="img_1/bottom/shorts.png" alt="반바지"></label>
+            <span>반바지</span>
         </div>
         <div>
-            <input type="checkbox" name="bottom" id="sweater1" value="sweater" onclick="NoMultiChkBottom(this)">
-            <label for="sweater1" class="one-label"><img src="img_1/bottom/sweater2.png" alt="니트/스웨터"></label>
-            <span>니트/스웨터</span>
+            <input type="checkbox" name="bottom" id="training" value="training" onclick="NoMultiChkBottom(this)">
+            <label for="training" class="one-label"><img src="img_1/bottom/sport.png" alt="트레이닝"></label>
+            <span>트레이닝</span>
         </div>
         <div>
-            <input type="checkbox" name="bottom" id="jacket1" value="jacket" onclick="NoMultiChkBottom(this)">
-            <label for="jacket1" class="one-label"><img src="img_1/bottom/leather-jacket2.png" alt="재킷"></label>
-            <span>재킷</span>
+            <input type="checkbox" name="bottom" id="jogger" value="jogger" onclick="NoMultiChkBottom(this)">
+            <label for="jogger" class="one-label"><img src="img_1/bottom/jogger.png" alt="조거"></label>
+            <span>조거</span>
         </div>
         <div>
-            <input type="checkbox" name="bottom" id="coat1" value="coat" onclick="NoMultiChkBottom(this)">
-            <label for="coat1" class="one-label"><img src="img_1/bottom/overcoat2.png" alt="코트"></label>
-            <span>코트</span>
+            <input type="checkbox" name="bottom" id="cargo" value="cargo" onclick="NoMultiChkBottom(this)">
+            <label for="cargo" class="one-label"><img src="img_1/bottom/cargo.png" alt="카고"></label>
+            <span>카고</span>
         </div>
         <div>
-            <input type="checkbox" name="bottom" id="padding1" value="padding" onclick="NoMultiChkBottom(this)">
-            <label for="padding1" class="one-label"><img src="img_1/bottom/padding2.png" alt="패딩"></label>
-            <span>패딩</span>
+            <input type="checkbox" name="bottom" id="boots" value="boots" onclick="NoMultiChkBottom(this)">
+            <label for="boots" class="one-label"><img src="img_1/bottom/boots.png" alt="부츠"></label>
+            <span>부츠</span>
         </div>
     </div>
 

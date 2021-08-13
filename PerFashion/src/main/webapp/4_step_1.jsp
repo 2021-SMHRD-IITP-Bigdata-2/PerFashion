@@ -135,14 +135,14 @@
                     color: rgb(194, 168, 201);">
                     ½ºÆ÷Æ¼
                 </div></label>
-            <label><input type='checkbox' name='style' value='ÈüÇÕ' >
+            <label><input type='checkbox' name='style' value='½ºÄð·è' >
                 <div class="style-div" 
-                    style="position: absolute; font-size: 43px; 
+                    style="position: absolute; font-size: 40px; 
                     left: 400px; top: 130px; 
                     padding-left: 10px;
                     padding-right: 10px;
                     color: rgb(102, 151, 239);">
-                    ÈüÇÕ
+                    ½ºÄð·è
                 </div></label>
             <label><input type='checkbox' name='style' value='¸ð´ø' >
                 <div class="style-div" 

@@ -1,7 +1,7 @@
 select * from MEMBER;
 
 
-
+select nickname, pwcheck from member where email_id='aa' and pw = '123'
 
 select * from MEMBER;
 

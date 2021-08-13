@@ -39,24 +39,26 @@
 
     <div class="center">
         <h1>PerFashion</h1>
-        <form method="POST">
-            <div class="txt_field" name="email_id">
-                <input type="text" required>
+        <form action="logincon_4" method="POST">
+            <div class="txt_field" >
+                <input type="text" required name="email_id">
                 <span></span>
                 <label>아이디</label>
             </div>
-            <div class="txt_field" name="pw">
-                <input type="password" required>
+            <div class="txt_field" >
+                <input type="password" required name="pw">
                 <span></span>
                 <label>비밀번호</label>
             </div>
             <input type="submit" value="로그인">
+           
             
             <div class="signup_link">
                 <a href="membership_2.jsp" style="margin-right: 20px;">회원가입</a>
                 <a href="password_2.jsp">비밀번호 찾기</a>
             </div>
-        </form>
+             </form>
+        
     </div>
     
     

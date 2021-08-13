@@ -17,9 +17,12 @@ public class logincon_4 extends HttpServlet {
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		String email = request.getParameter("email");
+		String email = request.getParameter("email_id");
 		String pw = request.getParameter("pw");
-
+		
+		System.out.println(email);
+		System.out.println(pw);
+		
 		member_DAO_4 dao = new member_DAO_4();
 		member_DTO_4 member = dao.member_login(email, pw);
 
@@ -27,13 +30,14 @@ public class logincon_4 extends HttpServlet {
 
 			HttpSession session = request.getSession();
 			session.setAttribute("login_member", member);
+			System.out.println("로그인 성공..");
 
 			response.sendRedirect("index_3.jsp");
 			
 
 		} else {
 			System.out.println("로그인 실패..");
-			response.sendRedirect("main.jsp");
+			response.sendRedirect("loginpage_2.jsp");
 
 		}
 

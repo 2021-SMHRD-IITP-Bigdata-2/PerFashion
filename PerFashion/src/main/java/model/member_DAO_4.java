@@ -72,6 +72,8 @@ public class member_DAO_4 {
 
 	}
 
+	
+
 	public member_DTO_4 member_login(String email, String pw) {
 
 		member_DTO_4 member = null;
@@ -80,7 +82,7 @@ public class member_DAO_4 {
 
 			connection();
 
-			String sql = "select m_tel, m_address from web_member where m_email=? and m_pw = ?";
+			String sql = "select nickname, pwcheck from member where email_id=? and pw = ?";
 
 			psmt = conn.prepareStatement(sql);
 			psmt.setString(1, email);
@@ -89,26 +91,30 @@ public class member_DAO_4 {
 			rs = psmt.executeQuery();
 
 			if (rs.next()) {
+				
+			String getnickname = rs.getString(1);
+			String getpwcheck = rs.getString(2);
+				
+	            
+				
 
-				String getTel = rs.getString(1);
-				String getAddr = rs.getString(2);
+			member = new member_DTO_4(email, null, getnickname, getpwcheck);
 
-				member = new member_DTO_4(email, pw, null, null);
-
-			} else {
+				} else {
 				System.out.println("정보 조회 실패..");
+	
+				}
+	
+				} catch (SQLException e) {
+				e.printStackTrace();
+				} finally {
+	
+				close();
+				}
 
-			}
-
-		} catch (SQLException e) {
-			e.printStackTrace();
-		} finally {
-
-			close();
-		}
-
-		return member;
+				return member;
 
 	}
-
+	
 }
+		

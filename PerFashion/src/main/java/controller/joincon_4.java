@@ -19,28 +19,32 @@ public class joincon_4 extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("EUC-KR");
 
-		String email = request.getParameter("email");
+		String email = request.getParameter("email_id");
 		String pw = request.getParameter("pw");
-		String re_pw = request.getParameter("re_pw");		
 		String nickname = request.getParameter("nickname");
+		String pwcheck = request.getParameter("re_pw");		
 		
-
+		System.out.println(email);
+		System.out.println(pw);
+		System.out.println(nickname);
+		System.out.println(pwcheck);
+		
 		member_DAO_4 dao = new member_DAO_4();
-		member_DTO_4 member = new member_DTO_4(email, pw, re_pw, nickname);
+		member_DTO_4 member = new member_DTO_4(email, pw, nickname, pwcheck);
 		int cnt = dao.member_join(member);
 
 		if (cnt > 0) {
-			
-			RequestDispatcher dispatcher = request.getRequestDispatcher("index_3.jsp");
+			response.sendRedirect("index_3.jsp");
+//			RequestDispatcher dispatcher = request.getRequestDispatcher("index_3.jsp");
 
-			request.setAttribute("email", email);
-
-			
-			dispatcher.forward(request, response);
+//			request.setAttribute("email", email);
+//
+//			
+//			dispatcher.forward(request, response);
 
 			
 		} else {
-			response.sendRedirect("index_3.jsp");
+			response.sendRedirect("membership_2.jsp");
 		}
 
 	}

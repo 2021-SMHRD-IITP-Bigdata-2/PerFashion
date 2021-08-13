@@ -1,9 +1,10 @@
 select * from MEMBER;
-select * from TOP;
 
 
-select * from top;
+
 
 select * from MEMBER;
 
-desc member
+insert into member (email_id, nickname,pw, pwcheck) values ('FF','FF','123','123');
+
+

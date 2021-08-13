@@ -5,22 +5,34 @@ public class member_DTO_4 {
 	
 	private String email_id;
 	private String pw;
-	private String re_pw;
 	private String nickname;
+	private String pwcheck;
 	
-	public member_DTO_4(String email_id, String pw, String re_pw, String nickname) {
+	
+	
+	public member_DTO_4(String email_id, String pw, String nickname, String pwcheck) {
 		super();
 		this.email_id = email_id;
 		this.pw = pw;
-		this.re_pw = re_pw;
 		this.nickname = nickname;
+		this.pwcheck = pwcheck;
+	}
+
+
+
+	public member_DTO_4() {
+		
 	}
 	
 	
 
+	
+
+
+
 	@Override
 	public String toString() {
-		return "member__DTO__4 [email_id=" + email_id + ", pw=" + pw + ", re_pw=" + re_pw + ", nickname=" + nickname
+		return "member_DTO_4 [email_id=" + email_id + ", pw=" + pw + ", nickname=" + nickname + ", pwcheck=" + pwcheck
 				+ "]";
 	}
 
@@ -42,13 +54,18 @@ public class member_DTO_4 {
 		this.pw = pw;
 	}
 
-	public String getRe_pw() {
-		return re_pw;
+	
+	public String getPwcheck() {
+		return pwcheck;
 	}
 
-	public void setRe_pw(String re_pw) {
-		this.re_pw = re_pw;
+
+
+	public void setPwcheck(String pwcheck) {
+		this.pwcheck = pwcheck;
 	}
+
+
 
 	public String getNickname() {
 		return nickname;

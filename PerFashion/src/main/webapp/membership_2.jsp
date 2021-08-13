@@ -43,6 +43,7 @@
             
             <form action="joincon_4" method="post">
             <div class="txt_field">
+            
                 <input type="text" required  name="email_id">
                 <span></span>
                 <label>ID</label>

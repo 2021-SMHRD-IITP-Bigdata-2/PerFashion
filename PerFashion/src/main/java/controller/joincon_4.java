@@ -20,17 +20,17 @@ public class joincon_4 extends HttpServlet {
 		request.setCharacterEncoding("EUC-KR");
 
 		String email = request.getParameter("email_id");
-		String pw = request.getParameter("pw");
 		String nickname = request.getParameter("nickname");
+		String pw = request.getParameter("pw");
 		String pwcheck = request.getParameter("re_pw");		
 		
 		System.out.println(email);
-		System.out.println(pw);
 		System.out.println(nickname);
+		System.out.println(pw);
 		System.out.println(pwcheck);
 		
 		member_DAO_4 dao = new member_DAO_4();
-		member_DTO_4 member = new member_DTO_4(email, pw, nickname, pwcheck);
+		member_DTO_4 member = new member_DTO_4(email,  nickname, pw, pwcheck);
 		int cnt = dao.member_join(member);
 
 		if (cnt > 0) {

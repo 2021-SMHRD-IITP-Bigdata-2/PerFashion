@@ -323,7 +323,8 @@ ul{
 }
 
 .header_slide{
-    background: rgba(0, 0, 0, 0.9);
+   /*  background: rgba(0, 0, 0, 0.9); */
+   	background : black;
     position: fixed;
     top: 0;
     left: 0;
